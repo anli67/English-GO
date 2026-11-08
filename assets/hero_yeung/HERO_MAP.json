@@ -1,0 +1,31 @@
+{
+  "pack": "yeung_hero_walk_v1_2026-10-26",
+  "status": "pls_Approve_NOT_LOCK",
+  "parent_samples": "yeung_friends_props_samples_v0_2026-10-26",
+  "parent_status": "Anthony_PASS_LOCK",
+  "dna": "Yeung_face_LOCKED + Hero_C_outfit",
+  "hero": {
+    "idle_front": "hero_yeung_idle_front.png",
+    "idle_back": "hero_yeung_idle_back.png",
+    "walk_back": [
+      "hero_yeung_walk_back_01.png",
+      "hero_yeung_walk_back_02.png",
+      "hero_yeung_walk_back_03.png",
+      "hero_yeung_walk_back_04.png"
+    ],
+    "walk_front": [
+      "hero_yeung_walk_front_01.png",
+      "hero_yeung_walk_front_02.png",
+      "hero_yeung_walk_front_03.png",
+      "hero_yeung_walk_front_04.png"
+    ],
+    "primary_view": "back",
+    "canvas_px": 1280,
+    "subject_tall_approx": 1120,
+    "arm_swing": true
+  },
+  "sheets": {
+    "walk_back": "sheet_walk_back.jpg",
+    "walk_front": "sheet_walk_front.jpg"
+  }
+}

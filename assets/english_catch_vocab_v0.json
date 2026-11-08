@@ -1,0 +1,149 @@
+{
+  "version": "english_catch_vocab_v0",
+  "source": "School 2026-2027 General English Dictation Revision (1); P.6 Book 11 Unit 1 Brilliant inventions",
+  "scope": "Part A Vocabulary ×10（主角默書生字）；Part B/C 可後期加故事任務",
+  "count": 10,
+  "words": [
+    {
+      "id": 1,
+      "term": "a lift",
+      "display": "lift",
+      "article": "a",
+      "creature_idea": "升降機小精靈：方盒身體＋上下箭嘴角",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 2,
+      "term": "an air conditioner",
+      "display": "air conditioner",
+      "article": "an",
+      "creature_idea": "冷氣精靈：吹涼風口＋雪花角",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 3,
+      "term": "a magnet",
+      "display": "magnet",
+      "article": "a",
+      "creature_idea": "磁石精靈：U形磁鐵身＋吸住螺絲",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 4,
+      "term": "a light bulb",
+      "display": "light bulb",
+      "article": "a",
+      "creature_idea": "燈泡精靈：圓玻璃頭發光",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 5,
+      "term": "a photocopier",
+      "display": "photocopier",
+      "article": "a",
+      "creature_idea": "影印機精靈：吐紙舌頭＋複印眼",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 6,
+      "term": "a steam iron",
+      "display": "steam iron",
+      "article": "a",
+      "creature_idea": "蒸氣熨斗精靈：噴氣＋平底腳",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 7,
+      "term": "a vacuum cleaner",
+      "display": "vacuum cleaner",
+      "article": "a",
+      "creature_idea": "吸塵精靈：軟管鼻吸塵粒",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 8,
+      "term": "a thermometer",
+      "display": "thermometer",
+      "article": "a",
+      "creature_idea": "溫度計精靈：長管身＋水銀臉",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 9,
+      "term": "a first-aid box",
+      "display": "first-aid box",
+      "article": "a",
+      "creature_idea": "急救箱精靈：十字標記＋藥貼耳",
+      "catch_rate": 0.125
+    },
+    {
+      "id": 10,
+      "term": "a microscope",
+      "display": "microscope",
+      "article": "a",
+      "creature_idea": "顯微鏡精靈：雙鏡筒眼＋底座腳",
+      "catch_rate": 0.125,
+      "art_note": "試樣：極致化耿鬼 vibe（原創；唔抄官方）— Owner knife 2026-10-26"
+    }
+  ],
+  "gameplay": {
+    "name": "Invention Critter Go（creature-catch style 玩法感覺；原創精靈，唔抄商標）",
+    "loop": [
+      "主角喺簡化地圖行來行去（點行／搖桿）",
+      "附近出現發明精靈（對應生字）",
+      "走近 → 遇敵畫面：精靈出現",
+      "用 keyboard 打正確英文詞（接受 a/an＋詞 或 净詞，大小寫寬鬆）",
+      "打啱 → 掟精靈球嘗試捕捉（有機率失敗；失敗可下次再遇）",
+      "打錯 → 彈走／重試；精靈可能逃走"
+    ],
+    "catch": {
+      "ball": "精靈球（原創設計，唔用官方 creature 商標圖）",
+      "success_not_guaranteed": true,
+      "fail_retry": "地圖再開刷／下次再遇"
+    },
+    "audio": "要有音效：行路／遇敵／打字啱／打字錯／掟球／捉到／逃走／BGM",
+    "art_gate": "STYLE 先同美術 LOCK（出樣圖俾 Owner 揀）先開 Group 產 10 精靈"
+  },
+  "art_lock": {
+    "date": "2026-10-26",
+    "microscope": "A 鬼＋鏡頭 LOCK keep",
+    "others": "唔齊鬼；各用唔同精靈感造形（原創）",
+    "sample_path": "microscope_gengar_vibe_v0_2026-10-26/",
+    "status": "美術改產其餘 9；程式 HOLD"
+  },
+  "catch_rate_note": "base 0.125; SPIN 72–78% → +30pp (→0.425); exact 75% → absolute 0.60; type≤5s ×1.2; clamp≤1 (knife Co 08:41 HK; +30pp not ×1.3)",
+  "catch_bonuses": {
+    "base": 0.125,
+    "spin_cycle": "hold SPIN 0→100→0 loop",
+    "spin_band_pct": [
+      72,
+      78
+    ],
+    "spin_band_bonus_pp": 0.3,
+    "spin_band_note": "release in 72–78% (not exact 75) → success += 0.30 percentage points (0.125+0.30=0.425); NOT relative ×1.3",
+    "spin_exact_pct": 75,
+    "spin_exact_absolute": 0.6,
+    "spin_exact_note": "release exactly 75% → success rate = 0.60 absolute (replaces band; old ×1.4 dead)",
+    "type_fast_sec": 5,
+    "type_fast_bonus_mult": 1.2,
+    "type_note": "≤5s correct → *=1.2; keep unless conflicts — report if stacking with absolute 0.60 looks wrong",
+    "stack_order": [
+      "start base 0.125",
+      "if spin==75: set absolute 0.60",
+      "elif spin in [72,78]: rate = base + 0.30  # percentage points",
+      "if type≤5s correct: *= 1.2",
+      "clamp ≤ 1.0"
+    ],
+    "clamp_max": 1.0,
+    "supersedes": [
+      "sweet75×1.4",
+      "band relative ×1.3 (brief typo 08:40 — corrected to +30pp)"
+    ]
+  },
+  "stage2_playtest": {
+    "status": "OPEN_DRAFT_PLAYTEST",
+    "gate": "currentStage may open MAP_BG_S2",
+    "vocab": "english_catch_stage2_beach_v0.json id101–121 DRAFT — not LOCK",
+    "note": "Owner unlock via Co 2026-10-27: play with DRAFT; do not treat as LOCK"
+  }
+}

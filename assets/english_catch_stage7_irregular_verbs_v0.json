@@ -1,0 +1,4275 @@
+{
+  "version": "english_catch_stage7_irregular_verbs_v0f_wave_b_keep",
+  "date": "2026-11-07",
+  "status": "Co stamp KEEP bank_v1 Wave B 42；題庫 Wave B art_status=KEEP＋keys；KEEP 81＝19＋Wave A 20＋Wave B 42；REG／born stub；底 soft tip ecgo47；唔 bump tip（程式 tip 估 ecgo48）；唔 promote",
+  "stage": 7,
+  "map": "irregular_table_fill",
+  "theme": "Irregular verb table + Chinese → fill base／past／pp；correct full set unlocks fish cutout 三態（Present 游／Past 被咬可選／PP 剩骨）",
+  "base_live": "ecgo47 soft",
+  "soft_tip_estimate": "ecgo47",
+  "clar": {
+    "like_stages": [
+      3,
+      6
+    ],
+    "spawn_rule": "on_correct_full_set (base+past+pp) → open one fish cutout with 3 tense art states",
+    "ui": "irregular verb table + Chinese gloss；三欄填寫原形／過去式／過去分詞",
+    "do_not": [
+      "唔改 S1–6",
+      "唔 promote",
+      "唔 bump tip 直至程式 soft tip",
+      "PASS LOCK keep 仍走 Co 1:1"
+    ],
+    "art_keep": {
+      "present_pp_pack": "/workspace/art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/",
+      "past_nit_pack": "/workspace/art_ecgo_s7_irregular_fish_sample_v1_past_nit_2026-11-07/",
+      "sheet": "sheets/overview_5x3.png",
+      "keys_present": [
+        "cc4a81a4",
+        "499f70af",
+        "d309774d",
+        "90838476",
+        "ebf5ebb2"
+      ],
+      "keys_past": [
+        "18877817",
+        "afc4c33d",
+        "c8df0b8f",
+        "71b2adb2",
+        "3fb72c95"
+      ],
+      "keys_pp": [
+        "d6d5eff1",
+        "00f1800a",
+        "c0fa705d",
+        "100f3f3c",
+        "6ec6faca"
+      ],
+      "bank_v1_wave_a": "/workspace/art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/"
+    },
+    "wave_a": {
+      "count": 20,
+      "ids": [
+        "be",
+        "become",
+        "bite",
+        "break",
+        "build",
+        "buy",
+        "choose",
+        "cut",
+        "do",
+        "fall",
+        "feel",
+        "find",
+        "forget",
+        "have",
+        "hear",
+        "hold",
+        "hurt",
+        "keep",
+        "leave",
+        "lose"
+      ],
+      "art_brief": "/workspace/BRIEF_art_ecgo_s7_irregular_fish_bank_v1_2026-11-07.md",
+      "gap": "[redacted_internal_path]",
+      "do_not": [
+        "唔 bump tip 本刀",
+        "唔 promote",
+        "唔改 S1–6",
+        "規則／born 等 Co Clar"
+      ]
+    },
+    "reg_special_hold": {
+      "regular_ids": [
+        "chop",
+        "walk",
+        "tidy",
+        "prepare",
+        "mop",
+        "try"
+      ],
+      "special_ids": [
+        "born"
+      ],
+      "wait": "Co Clar"
+    },
+    "wave_b": {
+      "count": 42,
+      "ids": [
+        "burn",
+        "cost",
+        "feed",
+        "lie",
+        "light",
+        "make",
+        "mean",
+        "meet",
+        "pay",
+        "put",
+        "quit",
+        "read",
+        "ride",
+        "ring",
+        "run",
+        "say",
+        "sell",
+        "shoot",
+        "lend",
+        "fight",
+        "sit",
+        "sleep",
+        "speak",
+        "spend",
+        "spread",
+        "stand",
+        "teach",
+        "tell",
+        "think",
+        "understand",
+        "wake",
+        "wear",
+        "win",
+        "let",
+        "drive",
+        "shake",
+        "shine",
+        "shut",
+        "sing",
+        "send",
+        "set",
+        "sweep"
+      ],
+      "trigger": "美術主管 soft PASS Wave A 2026-11-07 → 小學扩",
+      "do_not": [
+        "唔 bump tip 本刀",
+        "唔 promote",
+        "REG／born 仍 stub"
+      ]
+    },
+    "keep_flow": "主管 soft PASS → Co stamp KEEP＋准 tip；唔再開 Owner widget",
+    "wave_a_keep": {
+      "stamp": "Co PASS LOCK KEEP 2026-11-07",
+      "pack": "/workspace/art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/",
+      "keys": "/workspace/art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/_qc/KEYS.md",
+      "ids": [
+        "be",
+        "become",
+        "bite",
+        "break",
+        "build",
+        "buy",
+        "choose",
+        "cut",
+        "do",
+        "fall",
+        "feel",
+        "find",
+        "forget",
+        "have",
+        "hear",
+        "hold",
+        "hurt",
+        "keep",
+        "leave",
+        "lose"
+      ],
+      "count": 20
+    },
+    "wave_b_keep": {
+      "stamp": "Co PASS LOCK KEEP Wave B 2026-11-07",
+      "pack": "/workspace/art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/",
+      "keys": "/workspace/art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/_qc/KEYS_wave_b.md",
+      "ids": [
+        "burn",
+        "cost",
+        "feed",
+        "lie",
+        "light",
+        "make",
+        "mean",
+        "meet",
+        "pay",
+        "put",
+        "quit",
+        "read",
+        "ride",
+        "ring",
+        "run",
+        "say",
+        "sell",
+        "shoot",
+        "lend",
+        "fight",
+        "sit",
+        "sleep",
+        "speak",
+        "spend",
+        "spread",
+        "stand",
+        "teach",
+        "tell",
+        "think",
+        "understand",
+        "wake",
+        "wear",
+        "win",
+        "let",
+        "drive",
+        "shake",
+        "shine",
+        "shut",
+        "sing",
+        "send",
+        "set",
+        "sweep"
+      ],
+      "count": 42
+    }
+  },
+  "gameplay": {
+    "show": "irregular verb table rows with Chinese；empty base／past／pp cells",
+    "on_correct_full_set": "unlock／spawn that verb's fish cutout；cycle or tab Present／Past／PP art",
+    "case_insensitive": true,
+    "trim_whitespace": true,
+    "record": "ecgo_v1_* keep across ?v=（底 ecgo46；小學唔 bump tip；唔 promote）",
+    "first_knife_only": false
+  },
+  "blank_types": [
+    "base",
+    "past",
+    "pp"
+  ],
+  "tense_labels": {
+    "base": {
+      "en": "Present / base",
+      "zh": "原形",
+      "art_state": "present",
+      "story": "游緊水／動詞動作進行中"
+    },
+    "past": {
+      "en": "Past",
+      "zh": "過去式",
+      "art_state": "past",
+      "story": "過去式動作（被咬可選，唔強制）"
+    },
+    "pp": {
+      "en": "Past participle",
+      "zh": "過去分詞",
+      "art_state": "pp",
+      "story": "剩骨＋動詞痕跡"
+    }
+  },
+  "art_hint": {
+    "suggested_live_dir": "assets/species_s7/",
+    "filename_pattern": "{id}_{present|past|pp}.png",
+    "note": "程式 soft tip 時 copy cutouts 入 live assets；Present／PP 取 v1 pack；Past 取 past_nit pack（唔用 v1 舊 Past）"
+  },
+  "count": 88,
+  "verbs": [
+    {
+      "id": "draw",
+      "zh": "畫",
+      "fish_id": "s7_draw_puffer",
+      "fish_species_zh": "河豚／墨魚類",
+      "base": "draw",
+      "past": "drew",
+      "pp": "drawn",
+      "accept": {
+        "base": [
+          "draw"
+        ],
+        "past": [
+          "drew"
+        ],
+        "pp": [
+          "drawn"
+        ]
+      },
+      "art_keys": {
+        "present": "cc4a81a4",
+        "past": "18877817",
+        "pp": "d6d5eff1"
+      },
+      "unlock": {
+        "present": {
+          "file": "draw_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/draw_present.png",
+          "live_hint": "assets/species_s7/draw_present.png"
+        },
+        "past": {
+          "file": "draw_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_past_nit_2026-11-07/cutouts/draw_past.png",
+          "live_hint": "assets/species_s7/draw_past.png"
+        },
+        "pp": {
+          "file": "draw_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/draw_pp.png",
+          "live_hint": "assets/species_s7/draw_pp.png"
+        }
+      },
+      "first_knife": true,
+      "art_status": "KEEP",
+      "playable": true
+    },
+    {
+      "id": "fly",
+      "zh": "飛",
+      "fish_id": "s7_fly_flyingfish",
+      "fish_species_zh": "飛魚",
+      "base": "fly",
+      "past": "flew",
+      "pp": "flown",
+      "accept": {
+        "base": [
+          "fly"
+        ],
+        "past": [
+          "flew"
+        ],
+        "pp": [
+          "flown"
+        ]
+      },
+      "art_keys": {
+        "present": "499f70af",
+        "past": "afc4c33d",
+        "pp": "00f1800a"
+      },
+      "unlock": {
+        "present": {
+          "file": "fly_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/fly_present.png",
+          "live_hint": "assets/species_s7/fly_present.png"
+        },
+        "past": {
+          "file": "fly_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_past_nit_2026-11-07/cutouts/fly_past.png",
+          "live_hint": "assets/species_s7/fly_past.png"
+        },
+        "pp": {
+          "file": "fly_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/fly_pp.png",
+          "live_hint": "assets/species_s7/fly_pp.png"
+        }
+      },
+      "first_knife": true,
+      "art_status": "KEEP",
+      "playable": true
+    },
+    {
+      "id": "get",
+      "zh": "得到",
+      "fish_id": "s7_get_lantern",
+      "fish_species_zh": "燈籠魚／小丑魚",
+      "base": "get",
+      "past": "got",
+      "pp": "got",
+      "accept": {
+        "base": [
+          "get"
+        ],
+        "past": [
+          "got"
+        ],
+        "pp": [
+          "got",
+          "gotten"
+        ]
+      },
+      "accept_note": "pp 主答 got（Clar）；gotten 作 AmE 可選 accept",
+      "art_keys": {
+        "present": "d309774d",
+        "past": "c8df0b8f",
+        "pp": "c0fa705d"
+      },
+      "unlock": {
+        "present": {
+          "file": "get_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/get_present.png",
+          "live_hint": "assets/species_s7/get_present.png"
+        },
+        "past": {
+          "file": "get_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_past_nit_2026-11-07/cutouts/get_past.png",
+          "live_hint": "assets/species_s7/get_past.png"
+        },
+        "pp": {
+          "file": "get_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/get_pp.png",
+          "live_hint": "assets/species_s7/get_pp.png"
+        }
+      },
+      "first_knife": true,
+      "art_status": "KEEP",
+      "playable": true
+    },
+    {
+      "id": "grow",
+      "zh": "成長",
+      "fish_id": "s7_grow_sprout",
+      "fish_species_zh": "帶芽幼魚／成長魚",
+      "base": "grow",
+      "past": "grew",
+      "pp": "grown",
+      "accept": {
+        "base": [
+          "grow"
+        ],
+        "past": [
+          "grew"
+        ],
+        "pp": [
+          "grown"
+        ]
+      },
+      "art_keys": {
+        "present": "90838476",
+        "past": "71b2adb2",
+        "pp": "100f3f3c"
+      },
+      "unlock": {
+        "present": {
+          "file": "grow_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/grow_present.png",
+          "live_hint": "assets/species_s7/grow_present.png"
+        },
+        "past": {
+          "file": "grow_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_past_nit_2026-11-07/cutouts/grow_past.png",
+          "live_hint": "assets/species_s7/grow_past.png"
+        },
+        "pp": {
+          "file": "grow_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/grow_pp.png",
+          "live_hint": "assets/species_s7/grow_pp.png"
+        }
+      },
+      "first_knife": true,
+      "art_status": "KEEP",
+      "playable": true
+    },
+    {
+      "id": "know",
+      "zh": "知道",
+      "fish_id": "s7_know_bookfish",
+      "fish_species_zh": "書魚／眼鏡神仙魚",
+      "base": "know",
+      "past": "knew",
+      "pp": "known",
+      "accept": {
+        "base": [
+          "know"
+        ],
+        "past": [
+          "knew"
+        ],
+        "pp": [
+          "known"
+        ]
+      },
+      "art_keys": {
+        "present": "ebf5ebb2",
+        "past": "3fb72c95",
+        "pp": "6ec6faca"
+      },
+      "unlock": {
+        "present": {
+          "file": "know_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/know_present.png",
+          "live_hint": "assets/species_s7/know_present.png"
+        },
+        "past": {
+          "file": "know_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_past_nit_2026-11-07/cutouts/know_past.png",
+          "live_hint": "assets/species_s7/know_past.png"
+        },
+        "pp": {
+          "file": "know_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_sample_v1_2026-11-07/cutouts/know_pp.png",
+          "live_hint": "assets/species_s7/know_pp.png"
+        }
+      },
+      "first_knife": true,
+      "art_status": "KEEP",
+      "playable": true
+    },
+    {
+      "id": "take",
+      "zh": "拿",
+      "fish_id": "s7_take_grabber",
+      "fish_species_zh": "抓手魚／鉗口魚",
+      "base": "take",
+      "past": "took",
+      "pp": "taken",
+      "accept": {
+        "base": [
+          "take"
+        ],
+        "past": [
+          "took"
+        ],
+        "pp": [
+          "taken"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "take_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/take_present.png",
+          "live_hint": "assets/species_s7/take_present.png"
+        },
+        "past": {
+          "file": "take_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/take_past.png",
+          "live_hint": "assets/species_s7/take_past.png"
+        },
+        "pp": {
+          "file": "take_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/take_pp.png",
+          "live_hint": "assets/species_s7/take_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "throw",
+      "zh": "扔",
+      "fish_id": "s7_throw_skipper",
+      "fish_species_zh": "跳飛魚／拋躍魚",
+      "base": "throw",
+      "past": "threw",
+      "pp": "thrown",
+      "accept": {
+        "base": [
+          "throw"
+        ],
+        "past": [
+          "threw"
+        ],
+        "pp": [
+          "thrown"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "throw_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/throw_present.png",
+          "live_hint": "assets/species_s7/throw_present.png"
+        },
+        "past": {
+          "file": "throw_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/throw_past.png",
+          "live_hint": "assets/species_s7/throw_past.png"
+        },
+        "pp": {
+          "file": "throw_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/throw_pp.png",
+          "live_hint": "assets/species_s7/throw_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "eat",
+      "zh": "食",
+      "fish_id": "s7_eat_biter",
+      "fish_species_zh": "大口魚／咬食魚",
+      "base": "eat",
+      "past": "ate",
+      "pp": "eaten",
+      "accept": {
+        "base": [
+          "eat"
+        ],
+        "past": [
+          "ate"
+        ],
+        "pp": [
+          "eaten"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "eat_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/eat_present.png",
+          "live_hint": "assets/species_s7/eat_present.png"
+        },
+        "past": {
+          "file": "eat_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/eat_past.png",
+          "live_hint": "assets/species_s7/eat_past.png"
+        },
+        "pp": {
+          "file": "eat_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/eat_pp.png",
+          "live_hint": "assets/species_s7/eat_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "blow",
+      "zh": "吹",
+      "fish_id": "s7_blow_bubble",
+      "fish_species_zh": "泡泡魚／吹氣魚",
+      "base": "blow",
+      "past": "blew",
+      "pp": "blown",
+      "accept": {
+        "base": [
+          "blow"
+        ],
+        "past": [
+          "blew"
+        ],
+        "pp": [
+          "blown"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "blow_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/blow_present.png",
+          "live_hint": "assets/species_s7/blow_present.png"
+        },
+        "past": {
+          "file": "blow_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/blow_past.png",
+          "live_hint": "assets/species_s7/blow_past.png"
+        },
+        "pp": {
+          "file": "blow_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/blow_pp.png",
+          "live_hint": "assets/species_s7/blow_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "begin",
+      "zh": "開始",
+      "fish_id": "s7_begin_hatch",
+      "fish_species_zh": "破殼幼魚／起步魚",
+      "base": "begin",
+      "past": "began",
+      "pp": "begun",
+      "accept": {
+        "base": [
+          "begin"
+        ],
+        "past": [
+          "began"
+        ],
+        "pp": [
+          "begun"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "begin_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/begin_present.png",
+          "live_hint": "assets/species_s7/begin_present.png"
+        },
+        "past": {
+          "file": "begin_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/begin_past.png",
+          "live_hint": "assets/species_s7/begin_past.png"
+        },
+        "pp": {
+          "file": "begin_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/begin_pp.png",
+          "live_hint": "assets/species_s7/begin_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "bring",
+      "zh": "帶",
+      "fish_id": "s7_bring_carrier",
+      "fish_species_zh": "托運魚／帶物魚",
+      "base": "bring",
+      "past": "brought",
+      "pp": "brought",
+      "accept": {
+        "base": [
+          "bring"
+        ],
+        "past": [
+          "brought"
+        ],
+        "pp": [
+          "brought"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "bring_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/bring_present.png",
+          "live_hint": "assets/species_s7/bring_present.png"
+        },
+        "past": {
+          "file": "bring_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/bring_past.png",
+          "live_hint": "assets/species_s7/bring_past.png"
+        },
+        "pp": {
+          "file": "bring_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/bring_pp.png",
+          "live_hint": "assets/species_s7/bring_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "catch",
+      "zh": "捉",
+      "fish_id": "s7_catch_netter",
+      "fish_species_zh": "網口魚／捉魚魚",
+      "base": "catch",
+      "past": "caught",
+      "pp": "caught",
+      "accept": {
+        "base": [
+          "catch"
+        ],
+        "past": [
+          "caught"
+        ],
+        "pp": [
+          "caught"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "catch_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/catch_present.png",
+          "live_hint": "assets/species_s7/catch_present.png"
+        },
+        "past": {
+          "file": "catch_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/catch_past.png",
+          "live_hint": "assets/species_s7/catch_past.png"
+        },
+        "pp": {
+          "file": "catch_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/catch_pp.png",
+          "live_hint": "assets/species_s7/catch_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "come",
+      "zh": "來",
+      "fish_id": "s7_come_arriver",
+      "fish_species_zh": "到岸魚／來游魚",
+      "base": "come",
+      "past": "came",
+      "pp": "come",
+      "accept": {
+        "base": [
+          "come"
+        ],
+        "past": [
+          "came"
+        ],
+        "pp": [
+          "come"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "come_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/come_present.png",
+          "live_hint": "assets/species_s7/come_present.png"
+        },
+        "past": {
+          "file": "come_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/come_past.png",
+          "live_hint": "assets/species_s7/come_past.png"
+        },
+        "pp": {
+          "file": "come_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/come_pp.png",
+          "live_hint": "assets/species_s7/come_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "drink",
+      "zh": "飲",
+      "fish_id": "s7_drink_sipper",
+      "fish_species_zh": "吸管魚／飲水魚",
+      "base": "drink",
+      "past": "drank",
+      "pp": "drunk",
+      "accept": {
+        "base": [
+          "drink"
+        ],
+        "past": [
+          "drank"
+        ],
+        "pp": [
+          "drunk"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "drink_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/drink_present.png",
+          "live_hint": "assets/species_s7/drink_present.png"
+        },
+        "past": {
+          "file": "drink_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/drink_past.png",
+          "live_hint": "assets/species_s7/drink_past.png"
+        },
+        "pp": {
+          "file": "drink_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/drink_pp.png",
+          "live_hint": "assets/species_s7/drink_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "give",
+      "zh": "給",
+      "fish_id": "s7_give_gifter",
+      "fish_species_zh": "贈禮魚／遞物魚",
+      "base": "give",
+      "past": "gave",
+      "pp": "given",
+      "accept": {
+        "base": [
+          "give"
+        ],
+        "past": [
+          "gave"
+        ],
+        "pp": [
+          "given"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "give_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/give_present.png",
+          "live_hint": "assets/species_s7/give_present.png"
+        },
+        "past": {
+          "file": "give_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/give_past.png",
+          "live_hint": "assets/species_s7/give_past.png"
+        },
+        "pp": {
+          "file": "give_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/give_pp.png",
+          "live_hint": "assets/species_s7/give_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "go",
+      "zh": "去",
+      "fish_id": "s7_go_traveler",
+      "fish_species_zh": "遠行魚／去程魚",
+      "base": "go",
+      "past": "went",
+      "pp": "gone",
+      "accept": {
+        "base": [
+          "go"
+        ],
+        "past": [
+          "went"
+        ],
+        "pp": [
+          "gone"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "go_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/go_present.png",
+          "live_hint": "assets/species_s7/go_present.png"
+        },
+        "past": {
+          "file": "go_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/go_past.png",
+          "live_hint": "assets/species_s7/go_past.png"
+        },
+        "pp": {
+          "file": "go_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/go_pp.png",
+          "live_hint": "assets/species_s7/go_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "see",
+      "zh": "睇",
+      "fish_id": "s7_see_watcher",
+      "fish_species_zh": "眼珠魚／睇水魚",
+      "base": "see",
+      "past": "saw",
+      "pp": "seen",
+      "accept": {
+        "base": [
+          "see"
+        ],
+        "past": [
+          "saw"
+        ],
+        "pp": [
+          "seen"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "see_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/see_present.png",
+          "live_hint": "assets/species_s7/see_present.png"
+        },
+        "past": {
+          "file": "see_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/see_past.png",
+          "live_hint": "assets/species_s7/see_past.png"
+        },
+        "pp": {
+          "file": "see_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/see_pp.png",
+          "live_hint": "assets/species_s7/see_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "swim",
+      "zh": "游水",
+      "fish_id": "s7_swim_racer",
+      "fish_species_zh": "競游魚／游水魚",
+      "base": "swim",
+      "past": "swam",
+      "pp": "swum",
+      "accept": {
+        "base": [
+          "swim"
+        ],
+        "past": [
+          "swam"
+        ],
+        "pp": [
+          "swum"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "swim_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/swim_present.png",
+          "live_hint": "assets/species_s7/swim_present.png"
+        },
+        "past": {
+          "file": "swim_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/swim_past.png",
+          "live_hint": "assets/species_s7/swim_past.png"
+        },
+        "pp": {
+          "file": "swim_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/swim_pp.png",
+          "live_hint": "assets/species_s7/swim_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "write",
+      "zh": "寫",
+      "fish_id": "s7_write_scribbler",
+      "fish_species_zh": "墨水魚／寫字魚",
+      "base": "write",
+      "past": "wrote",
+      "pp": "written",
+      "accept": {
+        "base": [
+          "write"
+        ],
+        "past": [
+          "wrote"
+        ],
+        "pp": [
+          "written"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "write_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/write_present.png",
+          "live_hint": "assets/species_s7/write_present.png"
+        },
+        "past": {
+          "file": "write_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/write_past.png",
+          "live_hint": "assets/species_s7/write_past.png"
+        },
+        "pp": {
+          "file": "write_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/write_pp.png",
+          "live_hint": "assets/species_s7/write_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "art KEEP bank_v0 2026-11-07；soft tip ecgo46"
+    },
+    {
+      "id": "be",
+      "zh": "是",
+      "fish_id": "s7_be_disc_mirror_fish",
+      "fish_species_zh": "鏡盤魚",
+      "base": "be",
+      "past": "was/were",
+      "pp": "been",
+      "accept": {
+        "base": [
+          "be"
+        ],
+        "past": [
+          "was",
+          "were",
+          "was/were"
+        ],
+        "pp": [
+          "been"
+        ]
+      },
+      "art_keys": {
+        "present": "1c1f8300",
+        "past": "10c51e6b",
+        "pp": "698579da"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "be_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/be_present.png",
+          "live_hint": "assets/species_s7/be_present.png"
+        },
+        "past": {
+          "file": "be_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/be_past.png",
+          "live_hint": "assets/species_s7/be_past.png"
+        },
+        "pp": {
+          "file": "be_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/be_pp.png",
+          "live_hint": "assets/species_s7/be_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "become",
+      "zh": "成為",
+      "fish_id": "s7_become_moth_cloak_fish",
+      "fish_species_zh": "變身蛾魚",
+      "base": "become",
+      "past": "became",
+      "pp": "become",
+      "accept": {
+        "base": [
+          "become"
+        ],
+        "past": [
+          "became"
+        ],
+        "pp": [
+          "become"
+        ]
+      },
+      "art_keys": {
+        "present": "f089d4f0",
+        "past": "d9b597fa",
+        "pp": "74c35e56"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "become_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/become_present.png",
+          "live_hint": "assets/species_s7/become_present.png"
+        },
+        "past": {
+          "file": "become_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/become_past.png",
+          "live_hint": "assets/species_s7/become_past.png"
+        },
+        "pp": {
+          "file": "become_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/become_pp.png",
+          "live_hint": "assets/species_s7/become_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "bite",
+      "zh": "咬",
+      "fish_id": "s7_bite_fang_cookie_fish",
+      "fish_species_zh": "尖牙餅魚",
+      "base": "bite",
+      "past": "bit",
+      "pp": "bitten",
+      "accept": {
+        "base": [
+          "bite"
+        ],
+        "past": [
+          "bit"
+        ],
+        "pp": [
+          "bitten"
+        ]
+      },
+      "art_keys": {
+        "present": "ca8419af",
+        "past": "dc37081b",
+        "pp": "8c2c4169"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "bite_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/bite_present.png",
+          "live_hint": "assets/species_s7/bite_present.png"
+        },
+        "past": {
+          "file": "bite_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/bite_past.png",
+          "live_hint": "assets/species_s7/bite_past.png"
+        },
+        "pp": {
+          "file": "bite_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/bite_pp.png",
+          "live_hint": "assets/species_s7/bite_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "break",
+      "zh": "弄斷",
+      "fish_id": "s7_break_crack_egg_fish",
+      "fish_species_zh": "裂蛋魚",
+      "base": "break",
+      "past": "broke",
+      "pp": "broken",
+      "accept": {
+        "base": [
+          "break"
+        ],
+        "past": [
+          "broke"
+        ],
+        "pp": [
+          "broken"
+        ]
+      },
+      "art_keys": {
+        "present": "8759966b",
+        "past": "422d4200",
+        "pp": "acd0ff4c"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "break_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/break_present.png",
+          "live_hint": "assets/species_s7/break_present.png"
+        },
+        "past": {
+          "file": "break_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/break_past.png",
+          "live_hint": "assets/species_s7/break_past.png"
+        },
+        "pp": {
+          "file": "break_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/break_pp.png",
+          "live_hint": "assets/species_s7/break_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "build",
+      "zh": "建造",
+      "fish_id": "s7_build_brick_boxfish",
+      "fish_species_zh": "磚箱魚",
+      "base": "build",
+      "past": "built",
+      "pp": "built",
+      "accept": {
+        "base": [
+          "build"
+        ],
+        "past": [
+          "built"
+        ],
+        "pp": [
+          "built"
+        ]
+      },
+      "art_keys": {
+        "present": "05c6a5c5",
+        "past": "35e5551f",
+        "pp": "ec765b55"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "build_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/build_present.png",
+          "live_hint": "assets/species_s7/build_present.png"
+        },
+        "past": {
+          "file": "build_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/build_past.png",
+          "live_hint": "assets/species_s7/build_past.png"
+        },
+        "pp": {
+          "file": "build_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/build_pp.png",
+          "live_hint": "assets/species_s7/build_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "buy",
+      "zh": "買",
+      "fish_id": "s7_buy_basket_pouch_fish",
+      "fish_species_zh": "購物籃魚",
+      "base": "buy",
+      "past": "bought",
+      "pp": "bought",
+      "accept": {
+        "base": [
+          "buy"
+        ],
+        "past": [
+          "bought"
+        ],
+        "pp": [
+          "bought"
+        ]
+      },
+      "art_keys": {
+        "present": "4d39b82c",
+        "past": "add866bb",
+        "pp": "a7a66329"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "buy_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/buy_present.png",
+          "live_hint": "assets/species_s7/buy_present.png"
+        },
+        "past": {
+          "file": "buy_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/buy_past.png",
+          "live_hint": "assets/species_s7/buy_past.png"
+        },
+        "pp": {
+          "file": "buy_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/buy_pp.png",
+          "live_hint": "assets/species_s7/buy_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "choose",
+      "zh": "選擇",
+      "fish_id": "s7_choose_y_fork_fish",
+      "fish_species_zh": "分叉尾魚",
+      "base": "choose",
+      "past": "chose",
+      "pp": "chosen",
+      "accept": {
+        "base": [
+          "choose"
+        ],
+        "past": [
+          "chose"
+        ],
+        "pp": [
+          "chosen"
+        ]
+      },
+      "art_keys": {
+        "present": "731843f3",
+        "past": "a0d46b24",
+        "pp": "e9b962ce"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "choose_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/choose_present.png",
+          "live_hint": "assets/species_s7/choose_present.png"
+        },
+        "past": {
+          "file": "choose_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/choose_past.png",
+          "live_hint": "assets/species_s7/choose_past.png"
+        },
+        "pp": {
+          "file": "choose_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/choose_pp.png",
+          "live_hint": "assets/species_s7/choose_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "cut",
+      "zh": "剪",
+      "fish_id": "s7_cut_shear_fin_fish",
+      "fish_species_zh": "剪鰭魚",
+      "base": "cut",
+      "past": "cut",
+      "pp": "cut",
+      "accept": {
+        "base": [
+          "cut"
+        ],
+        "past": [
+          "cut"
+        ],
+        "pp": [
+          "cut"
+        ]
+      },
+      "art_keys": {
+        "present": "490e04f3",
+        "past": "d1589d86",
+        "pp": "3bb88c71"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "cut_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/cut_present.png",
+          "live_hint": "assets/species_s7/cut_present.png"
+        },
+        "past": {
+          "file": "cut_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/cut_past.png",
+          "live_hint": "assets/species_s7/cut_past.png"
+        },
+        "pp": {
+          "file": "cut_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/cut_pp.png",
+          "live_hint": "assets/species_s7/cut_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "do",
+      "zh": "做",
+      "fish_id": "s7_do_toolbox_angler",
+      "fish_species_zh": "工具箱鮟鱇",
+      "base": "do",
+      "past": "did",
+      "pp": "done",
+      "accept": {
+        "base": [
+          "do"
+        ],
+        "past": [
+          "did"
+        ],
+        "pp": [
+          "done"
+        ]
+      },
+      "art_keys": {
+        "present": "017d65d4",
+        "past": "b912286a",
+        "pp": "0c926624"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "do_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/do_present.png",
+          "live_hint": "assets/species_s7/do_present.png"
+        },
+        "past": {
+          "file": "do_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/do_past.png",
+          "live_hint": "assets/species_s7/do_past.png"
+        },
+        "pp": {
+          "file": "do_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/do_pp.png",
+          "live_hint": "assets/species_s7/do_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "fall",
+      "zh": "掉落",
+      "fish_id": "s7_fall_leaf_kite_fish",
+      "fish_species_zh": "落葉魚",
+      "base": "fall",
+      "past": "fell",
+      "pp": "fallen",
+      "accept": {
+        "base": [
+          "fall"
+        ],
+        "past": [
+          "fell"
+        ],
+        "pp": [
+          "fallen"
+        ]
+      },
+      "art_keys": {
+        "present": "e84cb0d9",
+        "past": "536bc30a",
+        "pp": "3f50b3df"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "fall_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/fall_present.png",
+          "live_hint": "assets/species_s7/fall_present.png"
+        },
+        "past": {
+          "file": "fall_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/fall_past.png",
+          "live_hint": "assets/species_s7/fall_past.png"
+        },
+        "pp": {
+          "file": "fall_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/fall_pp.png",
+          "live_hint": "assets/species_s7/fall_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "feel",
+      "zh": "感覺",
+      "fish_id": "s7_feel_soft_pad_fish",
+      "fish_species_zh": "觸感墊魚",
+      "base": "feel",
+      "past": "felt",
+      "pp": "felt",
+      "accept": {
+        "base": [
+          "feel"
+        ],
+        "past": [
+          "felt"
+        ],
+        "pp": [
+          "felt"
+        ]
+      },
+      "art_keys": {
+        "present": "2d514256",
+        "past": "e63c17c6",
+        "pp": "9851074d"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "feel_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/feel_present.png",
+          "live_hint": "assets/species_s7/feel_present.png"
+        },
+        "past": {
+          "file": "feel_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/feel_past.png",
+          "live_hint": "assets/species_s7/feel_past.png"
+        },
+        "pp": {
+          "file": "feel_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/feel_pp.png",
+          "live_hint": "assets/species_s7/feel_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "find",
+      "zh": "找到",
+      "fish_id": "s7_find_magnifier_eel",
+      "fish_species_zh": "放大鏡鰻",
+      "base": "find",
+      "past": "found",
+      "pp": "found",
+      "accept": {
+        "base": [
+          "find"
+        ],
+        "past": [
+          "found"
+        ],
+        "pp": [
+          "found"
+        ]
+      },
+      "art_keys": {
+        "present": "325b0dd7",
+        "past": "a2d8aa65",
+        "pp": "5f67edef"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "find_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/find_present.png",
+          "live_hint": "assets/species_s7/find_present.png"
+        },
+        "past": {
+          "file": "find_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/find_past.png",
+          "live_hint": "assets/species_s7/find_past.png"
+        },
+        "pp": {
+          "file": "find_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/find_pp.png",
+          "live_hint": "assets/species_s7/find_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "forget",
+      "zh": "忘記",
+      "fish_id": "s7_forget_cloud_head_fish",
+      "fish_species_zh": "忘雲魚",
+      "base": "forget",
+      "past": "forgot",
+      "pp": "forgotten",
+      "accept": {
+        "base": [
+          "forget"
+        ],
+        "past": [
+          "forgot"
+        ],
+        "pp": [
+          "forgotten"
+        ]
+      },
+      "art_keys": {
+        "present": "2fc7cf73",
+        "past": "e8459427",
+        "pp": "b3babf19"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "forget_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/forget_present.png",
+          "live_hint": "assets/species_s7/forget_present.png"
+        },
+        "past": {
+          "file": "forget_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/forget_past.png",
+          "live_hint": "assets/species_s7/forget_past.png"
+        },
+        "pp": {
+          "file": "forget_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/forget_pp.png",
+          "live_hint": "assets/species_s7/forget_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "have",
+      "zh": "有",
+      "fish_id": "s7_have_pearl_clutch_fish",
+      "fish_species_zh": "抱珠魚",
+      "base": "have",
+      "past": "had",
+      "pp": "had",
+      "accept": {
+        "base": [
+          "have"
+        ],
+        "past": [
+          "had"
+        ],
+        "pp": [
+          "had"
+        ]
+      },
+      "art_keys": {
+        "present": "809bbdf5",
+        "past": "3e729d0a",
+        "pp": "133346c6"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "have_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/have_present.png",
+          "live_hint": "assets/species_s7/have_present.png"
+        },
+        "past": {
+          "file": "have_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/have_past.png",
+          "live_hint": "assets/species_s7/have_past.png"
+        },
+        "pp": {
+          "file": "have_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/have_pp.png",
+          "live_hint": "assets/species_s7/have_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "hear",
+      "zh": "聽",
+      "fish_id": "s7_hear_earflap_ray",
+      "fish_species_zh": "大耳鰩",
+      "base": "hear",
+      "past": "heard",
+      "pp": "heard",
+      "accept": {
+        "base": [
+          "hear"
+        ],
+        "past": [
+          "heard"
+        ],
+        "pp": [
+          "heard"
+        ]
+      },
+      "art_keys": {
+        "present": "69517ae7",
+        "past": "e8d565f8",
+        "pp": "73d13acf"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "hear_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hear_present.png",
+          "live_hint": "assets/species_s7/hear_present.png"
+        },
+        "past": {
+          "file": "hear_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hear_past.png",
+          "live_hint": "assets/species_s7/hear_past.png"
+        },
+        "pp": {
+          "file": "hear_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hear_pp.png",
+          "live_hint": "assets/species_s7/hear_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "hold",
+      "zh": "握",
+      "fish_id": "s7_hold_grip_mitt_fish",
+      "fish_species_zh": "握墊魚",
+      "base": "hold",
+      "past": "held",
+      "pp": "held",
+      "accept": {
+        "base": [
+          "hold"
+        ],
+        "past": [
+          "held"
+        ],
+        "pp": [
+          "held"
+        ]
+      },
+      "art_keys": {
+        "present": "decf20fb",
+        "past": "6c2a3e21",
+        "pp": "ae77b8d7"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "hold_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hold_present.png",
+          "live_hint": "assets/species_s7/hold_present.png"
+        },
+        "past": {
+          "file": "hold_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hold_past.png",
+          "live_hint": "assets/species_s7/hold_past.png"
+        },
+        "pp": {
+          "file": "hold_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hold_pp.png",
+          "live_hint": "assets/species_s7/hold_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "hurt",
+      "zh": "受傷",
+      "fish_id": "s7_hurt_bandage_blob",
+      "fish_species_zh": "繃帶水滴魚",
+      "base": "hurt",
+      "past": "hurt",
+      "pp": "hurt",
+      "accept": {
+        "base": [
+          "hurt"
+        ],
+        "past": [
+          "hurt"
+        ],
+        "pp": [
+          "hurt"
+        ]
+      },
+      "art_keys": {
+        "present": "6d3d5019",
+        "past": "b2d588e7",
+        "pp": "69d22527"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "hurt_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hurt_present.png",
+          "live_hint": "assets/species_s7/hurt_present.png"
+        },
+        "past": {
+          "file": "hurt_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hurt_past.png",
+          "live_hint": "assets/species_s7/hurt_past.png"
+        },
+        "pp": {
+          "file": "hurt_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/hurt_pp.png",
+          "live_hint": "assets/species_s7/hurt_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "keep",
+      "zh": "保持",
+      "fish_id": "s7_keep_vault_shell_fish",
+      "fish_species_zh": "保險庫魚",
+      "base": "keep",
+      "past": "kept",
+      "pp": "kept",
+      "accept": {
+        "base": [
+          "keep"
+        ],
+        "past": [
+          "kept"
+        ],
+        "pp": [
+          "kept"
+        ]
+      },
+      "art_keys": {
+        "present": "c137b019",
+        "past": "d52d4923",
+        "pp": "3717582a"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "keep_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/keep_present.png",
+          "live_hint": "assets/species_s7/keep_present.png"
+        },
+        "past": {
+          "file": "keep_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/keep_past.png",
+          "live_hint": "assets/species_s7/keep_past.png"
+        },
+        "pp": {
+          "file": "keep_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/keep_pp.png",
+          "live_hint": "assets/species_s7/keep_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "leave",
+      "zh": "離開",
+      "fish_id": "s7_leave_trail_sole_fish",
+      "fish_species_zh": "足跡比目",
+      "base": "leave",
+      "past": "left",
+      "pp": "left",
+      "accept": {
+        "base": [
+          "leave"
+        ],
+        "past": [
+          "left"
+        ],
+        "pp": [
+          "left"
+        ]
+      },
+      "art_keys": {
+        "present": "ede3f5cd",
+        "past": "28d390b4",
+        "pp": "a331369e"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "leave_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/leave_present.png",
+          "live_hint": "assets/species_s7/leave_present.png"
+        },
+        "past": {
+          "file": "leave_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/leave_past.png",
+          "live_hint": "assets/species_s7/leave_past.png"
+        },
+        "pp": {
+          "file": "leave_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/leave_pp.png",
+          "live_hint": "assets/species_s7/leave_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "lose",
+      "zh": "失去、輸",
+      "fish_id": "s7_lose_holey_sack_fish",
+      "fish_species_zh": "破袋漏魚",
+      "base": "lose",
+      "past": "lost",
+      "pp": "lost",
+      "accept": {
+        "base": [
+          "lose"
+        ],
+        "past": [
+          "lost"
+        ],
+        "pp": [
+          "lost"
+        ]
+      },
+      "art_keys": {
+        "present": "525c1110",
+        "past": "36e8855c",
+        "pp": "f04658dc"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "lose_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lose_present.png",
+          "live_hint": "assets/species_s7/lose_present.png"
+        },
+        "past": {
+          "file": "lose_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lose_past.png",
+          "live_hint": "assets/species_s7/lose_past.png"
+        },
+        "pp": {
+          "file": "lose_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lose_pp.png",
+          "live_hint": "assets/species_s7/lose_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "note": "Co stamp KEEP bank_v1 Wave A 2026-11-07；唔 tip（程式 tip 估 ecgo47）",
+      "wave": "A"
+    },
+    {
+      "id": "chop",
+      "zh": "斬",
+      "fish_id": "s7_chop_reg_stub",
+      "fish_species_zh": "規則動詞 stub · 等 Co Clar",
+      "base": "chop",
+      "past": "chopped",
+      "pp": "chopped",
+      "accept": {
+        "base": [
+          "chop"
+        ],
+        "past": [
+          "chopped"
+        ],
+        "pp": [
+          "chopped"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "REG",
+      "verb_class": "regular",
+      "unlock": null,
+      "playable": false,
+      "first_knife": false,
+      "note": "規則動詞 stub；等 Co Clar 先入 S7 魚線；唔 tip"
+    },
+    {
+      "id": "walk",
+      "zh": "行",
+      "fish_id": "s7_walk_reg_stub",
+      "fish_species_zh": "規則動詞 stub · 等 Co Clar",
+      "base": "walk",
+      "past": "walked",
+      "pp": "walked",
+      "accept": {
+        "base": [
+          "walk"
+        ],
+        "past": [
+          "walked"
+        ],
+        "pp": [
+          "walked"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "REG",
+      "verb_class": "regular",
+      "unlock": null,
+      "playable": false,
+      "first_knife": false,
+      "note": "規則動詞 stub；等 Co Clar 先入 S7 魚線；唔 tip"
+    },
+    {
+      "id": "tidy",
+      "zh": "收拾",
+      "fish_id": "s7_tidy_reg_stub",
+      "fish_species_zh": "規則動詞 stub · 等 Co Clar",
+      "base": "tidy",
+      "past": "tidied",
+      "pp": "tidied",
+      "accept": {
+        "base": [
+          "tidy"
+        ],
+        "past": [
+          "tidied"
+        ],
+        "pp": [
+          "tidied"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "REG",
+      "verb_class": "regular",
+      "unlock": null,
+      "playable": false,
+      "first_knife": false,
+      "note": "規則動詞 stub；等 Co Clar 先入 S7 魚線；唔 tip"
+    },
+    {
+      "id": "prepare",
+      "zh": "準備",
+      "fish_id": "s7_prepare_reg_stub",
+      "fish_species_zh": "規則動詞 stub · 等 Co Clar",
+      "base": "prepare",
+      "past": "prepared",
+      "pp": "prepared",
+      "accept": {
+        "base": [
+          "prepare"
+        ],
+        "past": [
+          "prepared"
+        ],
+        "pp": [
+          "prepared"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "REG",
+      "verb_class": "regular",
+      "unlock": null,
+      "playable": false,
+      "first_knife": false,
+      "note": "規則動詞 stub；等 Co Clar 先入 S7 魚線；唔 tip"
+    },
+    {
+      "id": "mop",
+      "zh": "抹",
+      "fish_id": "s7_mop_reg_stub",
+      "fish_species_zh": "規則動詞 stub · 等 Co Clar",
+      "base": "mop",
+      "past": "mopped",
+      "pp": "mopped",
+      "accept": {
+        "base": [
+          "mop"
+        ],
+        "past": [
+          "mopped"
+        ],
+        "pp": [
+          "mopped"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "REG",
+      "verb_class": "regular",
+      "unlock": null,
+      "playable": false,
+      "first_knife": false,
+      "note": "規則動詞 stub；等 Co Clar 先入 S7 魚線；唔 tip"
+    },
+    {
+      "id": "try",
+      "zh": "嘗試",
+      "fish_id": "s7_try_reg_stub",
+      "fish_species_zh": "規則動詞 stub · 等 Co Clar",
+      "base": "try",
+      "past": "tried",
+      "pp": "tried",
+      "accept": {
+        "base": [
+          "try"
+        ],
+        "past": [
+          "tried"
+        ],
+        "pp": [
+          "tried"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "REG",
+      "verb_class": "regular",
+      "unlock": null,
+      "playable": false,
+      "first_knife": false,
+      "note": "規則動詞 stub；等 Co Clar 先入 S7 魚線；唔 tip"
+    },
+    {
+      "id": "born",
+      "zh": "生",
+      "fish_id": "s7_born_special_stub",
+      "fish_species_zh": "SPECIAL stub · 等 Co Clar",
+      "base": "born",
+      "past": "born",
+      "pp": "born",
+      "accept": {
+        "base": [
+          "born"
+        ],
+        "past": [
+          "born"
+        ],
+        "pp": [
+          "born"
+        ]
+      },
+      "art_keys": null,
+      "art_status": "SPECIAL",
+      "verb_class": "special",
+      "unlock": null,
+      "playable": false,
+      "first_knife": false,
+      "note": "born／be born 類 SPECIAL stub；等 Co Clar；唔 tip"
+    },
+    {
+      "id": "burn",
+      "zh": "燒",
+      "fish_id": "s7_burn_match_flame_fish",
+      "fish_species_zh": "火柴焰魚",
+      "base": "burn",
+      "past": "burnt",
+      "pp": "burnt",
+      "accept": {
+        "base": [
+          "burn"
+        ],
+        "past": [
+          "burnt"
+        ],
+        "pp": [
+          "burnt"
+        ]
+      },
+      "art_keys": {
+        "present": "fa6df455",
+        "past": "68a0d100",
+        "pp": "1d7886b0"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "burn_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/burn_present.png",
+          "live_hint": "assets/species_s7/burn_present.png"
+        },
+        "past": {
+          "file": "burn_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/burn_past.png",
+          "live_hint": "assets/species_s7/burn_past.png"
+        },
+        "pp": {
+          "file": "burn_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/burn_pp.png",
+          "live_hint": "assets/species_s7/burn_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "cost",
+      "zh": "花費、值",
+      "fish_id": "s7_cost_price_tag_fish",
+      "fish_species_zh": "價牌魚",
+      "base": "cost",
+      "past": "cost",
+      "pp": "cost",
+      "accept": {
+        "base": [
+          "cost"
+        ],
+        "past": [
+          "cost"
+        ],
+        "pp": [
+          "cost"
+        ]
+      },
+      "art_keys": {
+        "present": "84bc1ec2",
+        "past": "325b9394",
+        "pp": "190cef28"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "cost_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/cost_present.png",
+          "live_hint": "assets/species_s7/cost_present.png"
+        },
+        "past": {
+          "file": "cost_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/cost_past.png",
+          "live_hint": "assets/species_s7/cost_past.png"
+        },
+        "pp": {
+          "file": "cost_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/cost_pp.png",
+          "live_hint": "assets/species_s7/cost_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "feed",
+      "zh": "餵",
+      "fish_id": "s7_feed_spoon_feeder_fish",
+      "fish_species_zh": "餵匙魚",
+      "base": "feed",
+      "past": "fed",
+      "pp": "fed",
+      "accept": {
+        "base": [
+          "feed"
+        ],
+        "past": [
+          "fed"
+        ],
+        "pp": [
+          "fed"
+        ]
+      },
+      "art_keys": {
+        "present": "da70e28d",
+        "past": "8a1d946c",
+        "pp": "f8048a6f"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "feed_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/feed_present.png",
+          "live_hint": "assets/species_s7/feed_present.png"
+        },
+        "past": {
+          "file": "feed_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/feed_past.png",
+          "live_hint": "assets/species_s7/feed_past.png"
+        },
+        "pp": {
+          "file": "feed_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/feed_pp.png",
+          "live_hint": "assets/species_s7/feed_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "lie",
+      "zh": "躺",
+      "fish_id": "s7_lie_pillow_loaf_fish",
+      "fish_species_zh": "枕頭躺魚",
+      "base": "lie",
+      "past": "lay",
+      "pp": "lain",
+      "accept": {
+        "base": [
+          "lie"
+        ],
+        "past": [
+          "lay"
+        ],
+        "pp": [
+          "lain"
+        ]
+      },
+      "art_keys": {
+        "present": "14a3b068",
+        "past": "53319f15",
+        "pp": "7f8498d1"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "lie_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lie_present.png",
+          "live_hint": "assets/species_s7/lie_present.png"
+        },
+        "past": {
+          "file": "lie_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lie_past.png",
+          "live_hint": "assets/species_s7/lie_past.png"
+        },
+        "pp": {
+          "file": "lie_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lie_pp.png",
+          "live_hint": "assets/species_s7/lie_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "light",
+      "zh": "點亮",
+      "fish_id": "s7_light_bulb_lantern_fish",
+      "fish_species_zh": "燈泡燈籠魚",
+      "base": "light",
+      "past": "lit",
+      "pp": "lit",
+      "accept": {
+        "base": [
+          "light"
+        ],
+        "past": [
+          "lit"
+        ],
+        "pp": [
+          "lit"
+        ]
+      },
+      "art_keys": {
+        "present": "1ca76305",
+        "past": "5527bce5",
+        "pp": "5d98e6f9"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "light_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/light_present.png",
+          "live_hint": "assets/species_s7/light_present.png"
+        },
+        "past": {
+          "file": "light_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/light_past.png",
+          "live_hint": "assets/species_s7/light_past.png"
+        },
+        "pp": {
+          "file": "light_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/light_pp.png",
+          "live_hint": "assets/species_s7/light_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "make",
+      "zh": "使、製造",
+      "fish_id": "s7_make_hammer_workshop_fish",
+      "fish_species_zh": "鎚作坊魚",
+      "base": "make",
+      "past": "made",
+      "pp": "made",
+      "accept": {
+        "base": [
+          "make"
+        ],
+        "past": [
+          "made"
+        ],
+        "pp": [
+          "made"
+        ]
+      },
+      "art_keys": {
+        "present": "b8eaec62",
+        "past": "bd463716",
+        "pp": "3b2bfb90"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "make_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/make_present.png",
+          "live_hint": "assets/species_s7/make_present.png"
+        },
+        "past": {
+          "file": "make_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/make_past.png",
+          "live_hint": "assets/species_s7/make_past.png"
+        },
+        "pp": {
+          "file": "make_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/make_pp.png",
+          "live_hint": "assets/species_s7/make_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "mean",
+      "zh": "意指",
+      "fish_id": "s7_mean_arrow_pointer_fish",
+      "fish_species_zh": "箭指魚",
+      "base": "mean",
+      "past": "meant",
+      "pp": "meant",
+      "accept": {
+        "base": [
+          "mean"
+        ],
+        "past": [
+          "meant"
+        ],
+        "pp": [
+          "meant"
+        ]
+      },
+      "art_keys": {
+        "present": "fd2dde85",
+        "past": "563f3299",
+        "pp": "68c511b1"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "mean_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/mean_present.png",
+          "live_hint": "assets/species_s7/mean_present.png"
+        },
+        "past": {
+          "file": "mean_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/mean_past.png",
+          "live_hint": "assets/species_s7/mean_past.png"
+        },
+        "pp": {
+          "file": "mean_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/mean_pp.png",
+          "live_hint": "assets/species_s7/mean_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "meet",
+      "zh": "遇見",
+      "fish_id": "s7_meet_twin_handshake_fish",
+      "fish_species_zh": "握手雙魚",
+      "base": "meet",
+      "past": "met",
+      "pp": "met",
+      "accept": {
+        "base": [
+          "meet"
+        ],
+        "past": [
+          "met"
+        ],
+        "pp": [
+          "met"
+        ]
+      },
+      "art_keys": {
+        "present": "b4560d20",
+        "past": "9a5fa936",
+        "pp": "9a54e7ee"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "meet_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/meet_present.png",
+          "live_hint": "assets/species_s7/meet_present.png"
+        },
+        "past": {
+          "file": "meet_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/meet_past.png",
+          "live_hint": "assets/species_s7/meet_past.png"
+        },
+        "pp": {
+          "file": "meet_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/meet_pp.png",
+          "live_hint": "assets/species_s7/meet_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "pay",
+      "zh": "付",
+      "fish_id": "s7_pay_receipt_coin_fish",
+      "fish_species_zh": "收據錢魚",
+      "base": "pay",
+      "past": "paid",
+      "pp": "paid",
+      "accept": {
+        "base": [
+          "pay"
+        ],
+        "past": [
+          "paid"
+        ],
+        "pp": [
+          "paid"
+        ]
+      },
+      "art_keys": {
+        "present": "77f4723e",
+        "past": "dcc6e6a7",
+        "pp": "c3627fa2"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "pay_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/pay_present.png",
+          "live_hint": "assets/species_s7/pay_present.png"
+        },
+        "past": {
+          "file": "pay_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/pay_past.png",
+          "live_hint": "assets/species_s7/pay_past.png"
+        },
+        "pp": {
+          "file": "pay_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/pay_pp.png",
+          "live_hint": "assets/species_s7/pay_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "put",
+      "zh": "放",
+      "fish_id": "s7_put_box_placer_fish",
+      "fish_species_zh": "放盒魚",
+      "base": "put",
+      "past": "put",
+      "pp": "put",
+      "accept": {
+        "base": [
+          "put"
+        ],
+        "past": [
+          "put"
+        ],
+        "pp": [
+          "put"
+        ]
+      },
+      "art_keys": {
+        "present": "ec252446",
+        "past": "c2a30ca6",
+        "pp": "e8c2a6f4"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "put_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/put_present.png",
+          "live_hint": "assets/species_s7/put_present.png"
+        },
+        "past": {
+          "file": "put_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/put_past.png",
+          "live_hint": "assets/species_s7/put_past.png"
+        },
+        "pp": {
+          "file": "put_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/put_pp.png",
+          "live_hint": "assets/species_s7/put_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "quit",
+      "zh": "放棄",
+      "fish_id": "s7_quit_white_flag_fish",
+      "fish_species_zh": "白旗魚",
+      "base": "quit",
+      "past": "quit",
+      "pp": "quit",
+      "accept": {
+        "base": [
+          "quit"
+        ],
+        "past": [
+          "quit"
+        ],
+        "pp": [
+          "quit"
+        ]
+      },
+      "art_keys": {
+        "present": "140f7e24",
+        "past": "633f5e03",
+        "pp": "71ad0ae7"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "quit_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/quit_present.png",
+          "live_hint": "assets/species_s7/quit_present.png"
+        },
+        "past": {
+          "file": "quit_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/quit_past.png",
+          "live_hint": "assets/species_s7/quit_past.png"
+        },
+        "pp": {
+          "file": "quit_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/quit_pp.png",
+          "live_hint": "assets/species_s7/quit_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "read",
+      "zh": "讀",
+      "fish_id": "s7_read_book_page_fish",
+      "fish_species_zh": "書頁魚",
+      "base": "read",
+      "past": "read",
+      "pp": "read",
+      "accept": {
+        "base": [
+          "read"
+        ],
+        "past": [
+          "read"
+        ],
+        "pp": [
+          "read"
+        ]
+      },
+      "art_keys": {
+        "present": "7a2089dd",
+        "past": "fd1faf30",
+        "pp": "7c61f205"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "read_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/read_present.png",
+          "live_hint": "assets/species_s7/read_present.png"
+        },
+        "past": {
+          "file": "read_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/read_past.png",
+          "live_hint": "assets/species_s7/read_past.png"
+        },
+        "pp": {
+          "file": "read_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/read_pp.png",
+          "live_hint": "assets/species_s7/read_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "ride",
+      "zh": "騎",
+      "fish_id": "s7_ride_saddle_rider_fish",
+      "fish_species_zh": "鞍騎魚",
+      "base": "ride",
+      "past": "rode",
+      "pp": "ridden",
+      "accept": {
+        "base": [
+          "ride"
+        ],
+        "past": [
+          "rode"
+        ],
+        "pp": [
+          "ridden"
+        ]
+      },
+      "art_keys": {
+        "present": "1a7ee550",
+        "past": "c871c1e2",
+        "pp": "6096984c"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "ride_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/ride_present.png",
+          "live_hint": "assets/species_s7/ride_present.png"
+        },
+        "past": {
+          "file": "ride_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/ride_past.png",
+          "live_hint": "assets/species_s7/ride_past.png"
+        },
+        "pp": {
+          "file": "ride_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/ride_pp.png",
+          "live_hint": "assets/species_s7/ride_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "ring",
+      "zh": "按鈴/響",
+      "fish_id": "s7_ring_bell_ringer_fish",
+      "fish_species_zh": "鈴鐺魚",
+      "base": "ring",
+      "past": "rang",
+      "pp": "rung",
+      "accept": {
+        "base": [
+          "ring"
+        ],
+        "past": [
+          "rang"
+        ],
+        "pp": [
+          "rung"
+        ]
+      },
+      "art_keys": {
+        "present": "e783f035",
+        "past": "6c8ed205",
+        "pp": "25cab74a"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "ring_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/ring_present.png",
+          "live_hint": "assets/species_s7/ring_present.png"
+        },
+        "past": {
+          "file": "ring_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/ring_past.png",
+          "live_hint": "assets/species_s7/ring_past.png"
+        },
+        "pp": {
+          "file": "ring_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/ring_pp.png",
+          "live_hint": "assets/species_s7/ring_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "run",
+      "zh": "跑",
+      "fish_id": "s7_run_sneaker_speed_fish",
+      "fish_species_zh": "跑鞋魚",
+      "base": "run",
+      "past": "ran",
+      "pp": "run",
+      "accept": {
+        "base": [
+          "run"
+        ],
+        "past": [
+          "ran"
+        ],
+        "pp": [
+          "run"
+        ]
+      },
+      "art_keys": {
+        "present": "6e20d220",
+        "past": "cc9e9e3f",
+        "pp": "332c591d"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "run_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/run_present.png",
+          "live_hint": "assets/species_s7/run_present.png"
+        },
+        "past": {
+          "file": "run_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/run_past.png",
+          "live_hint": "assets/species_s7/run_past.png"
+        },
+        "pp": {
+          "file": "run_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/run_pp.png",
+          "live_hint": "assets/species_s7/run_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "say",
+      "zh": "說",
+      "fish_id": "s7_say_speech_bubble_fish",
+      "fish_species_zh": "對話泡魚",
+      "base": "say",
+      "past": "said",
+      "pp": "said",
+      "accept": {
+        "base": [
+          "say"
+        ],
+        "past": [
+          "said"
+        ],
+        "pp": [
+          "said"
+        ]
+      },
+      "art_keys": {
+        "present": "e4942947",
+        "past": "c91e2dad",
+        "pp": "6346b271"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "say_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/say_present.png",
+          "live_hint": "assets/species_s7/say_present.png"
+        },
+        "past": {
+          "file": "say_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/say_past.png",
+          "live_hint": "assets/species_s7/say_past.png"
+        },
+        "pp": {
+          "file": "say_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/say_pp.png",
+          "live_hint": "assets/species_s7/say_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "sell",
+      "zh": "賣",
+      "fish_id": "s7_sell_market_stall_fish",
+      "fish_species_zh": "攤檔魚",
+      "base": "sell",
+      "past": "sold",
+      "pp": "sold",
+      "accept": {
+        "base": [
+          "sell"
+        ],
+        "past": [
+          "sold"
+        ],
+        "pp": [
+          "sold"
+        ]
+      },
+      "art_keys": {
+        "present": "5beb9cb7",
+        "past": "ca9e6c3a",
+        "pp": "e1c83465"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "sell_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sell_present.png",
+          "live_hint": "assets/species_s7/sell_present.png"
+        },
+        "past": {
+          "file": "sell_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sell_past.png",
+          "live_hint": "assets/species_s7/sell_past.png"
+        },
+        "pp": {
+          "file": "sell_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sell_pp.png",
+          "live_hint": "assets/species_s7/sell_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "shoot",
+      "zh": "射",
+      "fish_id": "s7_shoot_water_blaster_fish",
+      "fish_species_zh": "水槍魚",
+      "base": "shoot",
+      "past": "shot",
+      "pp": "shot",
+      "accept": {
+        "base": [
+          "shoot"
+        ],
+        "past": [
+          "shot"
+        ],
+        "pp": [
+          "shot"
+        ]
+      },
+      "art_keys": {
+        "present": "60063be1",
+        "past": "1b3fc929",
+        "pp": "f6513edb"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "shoot_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shoot_present.png",
+          "live_hint": "assets/species_s7/shoot_present.png"
+        },
+        "past": {
+          "file": "shoot_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shoot_past.png",
+          "live_hint": "assets/species_s7/shoot_past.png"
+        },
+        "pp": {
+          "file": "shoot_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shoot_pp.png",
+          "live_hint": "assets/species_s7/shoot_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "lend",
+      "zh": "借",
+      "fish_id": "s7_lend_lend_hand_fish",
+      "fish_species_zh": "借出物魚",
+      "base": "lend",
+      "past": "lent",
+      "pp": "lent",
+      "accept": {
+        "base": [
+          "lend"
+        ],
+        "past": [
+          "lent"
+        ],
+        "pp": [
+          "lent"
+        ]
+      },
+      "art_keys": {
+        "present": "c1bbb7e7",
+        "past": "85ccb8bc",
+        "pp": "3ecda091"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "lend_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lend_present.png",
+          "live_hint": "assets/species_s7/lend_present.png"
+        },
+        "past": {
+          "file": "lend_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lend_past.png",
+          "live_hint": "assets/species_s7/lend_past.png"
+        },
+        "pp": {
+          "file": "lend_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/lend_pp.png",
+          "live_hint": "assets/species_s7/lend_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "fight",
+      "zh": "打架",
+      "fish_id": "s7_fight_boxing_glove_fish",
+      "fish_species_zh": "拳套魚",
+      "base": "fight",
+      "past": "fought",
+      "pp": "fought",
+      "accept": {
+        "base": [
+          "fight"
+        ],
+        "past": [
+          "fought"
+        ],
+        "pp": [
+          "fought"
+        ]
+      },
+      "art_keys": {
+        "present": "201173b9",
+        "past": "53efdc4e",
+        "pp": "02e86a3f"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "fight_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/fight_present.png",
+          "live_hint": "assets/species_s7/fight_present.png"
+        },
+        "past": {
+          "file": "fight_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/fight_past.png",
+          "live_hint": "assets/species_s7/fight_past.png"
+        },
+        "pp": {
+          "file": "fight_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/fight_pp.png",
+          "live_hint": "assets/species_s7/fight_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "sit",
+      "zh": "坐",
+      "fish_id": "s7_sit_chair_sitter_fish",
+      "fish_species_zh": "椅坐魚",
+      "base": "sit",
+      "past": "sat",
+      "pp": "sat",
+      "accept": {
+        "base": [
+          "sit"
+        ],
+        "past": [
+          "sat"
+        ],
+        "pp": [
+          "sat"
+        ]
+      },
+      "art_keys": {
+        "present": "54a36ca3",
+        "past": "3a6ff6dd",
+        "pp": "ea0a2128"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "sit_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sit_present.png",
+          "live_hint": "assets/species_s7/sit_present.png"
+        },
+        "past": {
+          "file": "sit_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sit_past.png",
+          "live_hint": "assets/species_s7/sit_past.png"
+        },
+        "pp": {
+          "file": "sit_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sit_pp.png",
+          "live_hint": "assets/species_s7/sit_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "sleep",
+      "zh": "睡",
+      "fish_id": "s7_sleep_moon_zzz_fish",
+      "fish_species_zh": "月眠魚",
+      "base": "sleep",
+      "past": "slept",
+      "pp": "slept",
+      "accept": {
+        "base": [
+          "sleep"
+        ],
+        "past": [
+          "slept"
+        ],
+        "pp": [
+          "slept"
+        ]
+      },
+      "art_keys": {
+        "present": "555957c1",
+        "past": "713d0205",
+        "pp": "975498bb"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "sleep_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sleep_present.png",
+          "live_hint": "assets/species_s7/sleep_present.png"
+        },
+        "past": {
+          "file": "sleep_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sleep_past.png",
+          "live_hint": "assets/species_s7/sleep_past.png"
+        },
+        "pp": {
+          "file": "sleep_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sleep_pp.png",
+          "live_hint": "assets/species_s7/sleep_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "speak",
+      "zh": "說(語言)",
+      "fish_id": "s7_speak_multi_bubble_fish",
+      "fish_species_zh": "多語泡魚",
+      "base": "speak",
+      "past": "spoke",
+      "pp": "spoken",
+      "accept": {
+        "base": [
+          "speak"
+        ],
+        "past": [
+          "spoke"
+        ],
+        "pp": [
+          "spoken"
+        ]
+      },
+      "art_keys": {
+        "present": "53e1704c",
+        "past": "a4a2b7bb",
+        "pp": "1d3b0b89"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "speak_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/speak_present.png",
+          "live_hint": "assets/species_s7/speak_present.png"
+        },
+        "past": {
+          "file": "speak_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/speak_past.png",
+          "live_hint": "assets/species_s7/speak_past.png"
+        },
+        "pp": {
+          "file": "speak_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/speak_pp.png",
+          "live_hint": "assets/species_s7/speak_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "spend",
+      "zh": "花(錢、時間)",
+      "fish_id": "s7_spend_hourglass_spend_fish",
+      "fish_species_zh": "沙漏錢飛魚",
+      "base": "spend",
+      "past": "spent",
+      "pp": "spent",
+      "accept": {
+        "base": [
+          "spend"
+        ],
+        "past": [
+          "spent"
+        ],
+        "pp": [
+          "spent"
+        ]
+      },
+      "art_keys": {
+        "present": "9810a592",
+        "past": "0b674488",
+        "pp": "089c2a23"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "spend_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/spend_present.png",
+          "live_hint": "assets/species_s7/spend_present.png"
+        },
+        "past": {
+          "file": "spend_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/spend_past.png",
+          "live_hint": "assets/species_s7/spend_past.png"
+        },
+        "pp": {
+          "file": "spend_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/spend_pp.png",
+          "live_hint": "assets/species_s7/spend_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "spread",
+      "zh": "攤開",
+      "fish_id": "s7_spread_cloth_spread_fish",
+      "fish_species_zh": "布攤魚",
+      "base": "spread",
+      "past": "spread",
+      "pp": "spread",
+      "accept": {
+        "base": [
+          "spread"
+        ],
+        "past": [
+          "spread"
+        ],
+        "pp": [
+          "spread"
+        ]
+      },
+      "art_keys": {
+        "present": "f3ec9589",
+        "past": "611b66fe",
+        "pp": "e3eef267"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "spread_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/spread_present.png",
+          "live_hint": "assets/species_s7/spread_present.png"
+        },
+        "past": {
+          "file": "spread_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/spread_past.png",
+          "live_hint": "assets/species_s7/spread_past.png"
+        },
+        "pp": {
+          "file": "spread_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/spread_pp.png",
+          "live_hint": "assets/species_s7/spread_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "stand",
+      "zh": "站",
+      "fish_id": "s7_stand_pedestal_stand_fish",
+      "fish_species_zh": "站台魚",
+      "base": "stand",
+      "past": "stood",
+      "pp": "stood",
+      "accept": {
+        "base": [
+          "stand"
+        ],
+        "past": [
+          "stood"
+        ],
+        "pp": [
+          "stood"
+        ]
+      },
+      "art_keys": {
+        "present": "6ac42ec6",
+        "past": "31c1d52e",
+        "pp": "5a6fbdc9"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "stand_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/stand_present.png",
+          "live_hint": "assets/species_s7/stand_present.png"
+        },
+        "past": {
+          "file": "stand_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/stand_past.png",
+          "live_hint": "assets/species_s7/stand_past.png"
+        },
+        "pp": {
+          "file": "stand_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/stand_pp.png",
+          "live_hint": "assets/species_s7/stand_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "teach",
+      "zh": "教",
+      "fish_id": "s7_teach_chalkboard_fish",
+      "fish_species_zh": "黑板魚",
+      "base": "teach",
+      "past": "taught",
+      "pp": "taught",
+      "accept": {
+        "base": [
+          "teach"
+        ],
+        "past": [
+          "taught"
+        ],
+        "pp": [
+          "taught"
+        ]
+      },
+      "art_keys": {
+        "present": "1ad93007",
+        "past": "331cc166",
+        "pp": "af637f6a"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "teach_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/teach_present.png",
+          "live_hint": "assets/species_s7/teach_present.png"
+        },
+        "past": {
+          "file": "teach_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/teach_past.png",
+          "live_hint": "assets/species_s7/teach_past.png"
+        },
+        "pp": {
+          "file": "teach_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/teach_pp.png",
+          "live_hint": "assets/species_s7/teach_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "tell",
+      "zh": "告訴",
+      "fish_id": "s7_tell_whisper_ear_fish",
+      "fish_species_zh": "耳語魚",
+      "base": "tell",
+      "past": "told",
+      "pp": "told",
+      "accept": {
+        "base": [
+          "tell"
+        ],
+        "past": [
+          "told"
+        ],
+        "pp": [
+          "told"
+        ]
+      },
+      "art_keys": {
+        "present": "cff09dcb",
+        "past": "e4194065",
+        "pp": "db10d7bc"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "tell_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/tell_present.png",
+          "live_hint": "assets/species_s7/tell_present.png"
+        },
+        "past": {
+          "file": "tell_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/tell_past.png",
+          "live_hint": "assets/species_s7/tell_past.png"
+        },
+        "pp": {
+          "file": "tell_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/tell_pp.png",
+          "live_hint": "assets/species_s7/tell_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "think",
+      "zh": "想",
+      "fish_id": "s7_think_think_bulb_fish",
+      "fish_species_zh": "思緒燈泡魚",
+      "base": "think",
+      "past": "thought",
+      "pp": "thought",
+      "accept": {
+        "base": [
+          "think"
+        ],
+        "past": [
+          "thought"
+        ],
+        "pp": [
+          "thought"
+        ]
+      },
+      "art_keys": {
+        "present": "772c639b",
+        "past": "f0861d47",
+        "pp": "3a25fdfd"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "think_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/think_present.png",
+          "live_hint": "assets/species_s7/think_present.png"
+        },
+        "past": {
+          "file": "think_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/think_past.png",
+          "live_hint": "assets/species_s7/think_past.png"
+        },
+        "pp": {
+          "file": "think_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/think_pp.png",
+          "live_hint": "assets/species_s7/think_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "understand",
+      "zh": "了解",
+      "fish_id": "s7_understand_lit_click_fish",
+      "fish_species_zh": "通電燈魚",
+      "base": "understand",
+      "past": "understood",
+      "pp": "understood",
+      "accept": {
+        "base": [
+          "understand"
+        ],
+        "past": [
+          "understood"
+        ],
+        "pp": [
+          "understood"
+        ]
+      },
+      "art_keys": {
+        "present": "c9dae5f2",
+        "past": "f67cc4ea",
+        "pp": "3182efdb"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "understand_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/understand_present.png",
+          "live_hint": "assets/species_s7/understand_present.png"
+        },
+        "past": {
+          "file": "understand_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/understand_past.png",
+          "live_hint": "assets/species_s7/understand_past.png"
+        },
+        "pp": {
+          "file": "understand_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/understand_pp.png",
+          "live_hint": "assets/species_s7/understand_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "wake",
+      "zh": "醒",
+      "fish_id": "s7_wake_alarm_clock_fish",
+      "fish_species_zh": "鬧鐘魚",
+      "base": "wake",
+      "past": "woke",
+      "pp": "woken",
+      "accept": {
+        "base": [
+          "wake"
+        ],
+        "past": [
+          "woke"
+        ],
+        "pp": [
+          "woken"
+        ]
+      },
+      "art_keys": {
+        "present": "6b67bbcc",
+        "past": "27426dbd",
+        "pp": "86b2a7f2"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "wake_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/wake_present.png",
+          "live_hint": "assets/species_s7/wake_present.png"
+        },
+        "past": {
+          "file": "wake_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/wake_past.png",
+          "live_hint": "assets/species_s7/wake_past.png"
+        },
+        "pp": {
+          "file": "wake_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/wake_pp.png",
+          "live_hint": "assets/species_s7/wake_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "wear",
+      "zh": "穿",
+      "fish_id": "s7_wear_hat_wear_fish",
+      "fish_species_zh": "帽衣魚",
+      "base": "wear",
+      "past": "wore",
+      "pp": "worn",
+      "accept": {
+        "base": [
+          "wear"
+        ],
+        "past": [
+          "wore"
+        ],
+        "pp": [
+          "worn"
+        ]
+      },
+      "art_keys": {
+        "present": "31d0b150",
+        "past": "f8ef42b3",
+        "pp": "61fd0c73"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "wear_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/wear_present.png",
+          "live_hint": "assets/species_s7/wear_present.png"
+        },
+        "past": {
+          "file": "wear_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/wear_past.png",
+          "live_hint": "assets/species_s7/wear_past.png"
+        },
+        "pp": {
+          "file": "wear_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/wear_pp.png",
+          "live_hint": "assets/species_s7/wear_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "win",
+      "zh": "贏",
+      "fish_id": "s7_win_trophy_win_fish",
+      "fish_species_zh": "獎盃魚",
+      "base": "win",
+      "past": "won",
+      "pp": "won",
+      "accept": {
+        "base": [
+          "win"
+        ],
+        "past": [
+          "won"
+        ],
+        "pp": [
+          "won"
+        ]
+      },
+      "art_keys": {
+        "present": "f8b3b10d",
+        "past": "7730ce1a",
+        "pp": "85c0c79c"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "win_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/win_present.png",
+          "live_hint": "assets/species_s7/win_present.png"
+        },
+        "past": {
+          "file": "win_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/win_past.png",
+          "live_hint": "assets/species_s7/win_past.png"
+        },
+        "pp": {
+          "file": "win_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/win_pp.png",
+          "live_hint": "assets/species_s7/win_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "let",
+      "zh": "讓",
+      "fish_id": "s7_let_gate_open_fish",
+      "fish_species_zh": "開閘魚",
+      "base": "let",
+      "past": "let",
+      "pp": "let",
+      "accept": {
+        "base": [
+          "let"
+        ],
+        "past": [
+          "let"
+        ],
+        "pp": [
+          "let"
+        ]
+      },
+      "art_keys": {
+        "present": "a014fc18",
+        "past": "5dbca503",
+        "pp": "9ba1dbd5"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "let_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/let_present.png",
+          "live_hint": "assets/species_s7/let_present.png"
+        },
+        "past": {
+          "file": "let_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/let_past.png",
+          "live_hint": "assets/species_s7/let_past.png"
+        },
+        "pp": {
+          "file": "let_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/let_pp.png",
+          "live_hint": "assets/species_s7/let_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "drive",
+      "zh": "開車",
+      "fish_id": "s7_drive_steering_wheel_fish",
+      "fish_species_zh": "軚盤魚",
+      "base": "drive",
+      "past": "drove",
+      "pp": "driven",
+      "accept": {
+        "base": [
+          "drive"
+        ],
+        "past": [
+          "drove"
+        ],
+        "pp": [
+          "driven"
+        ]
+      },
+      "art_keys": {
+        "present": "1e675e42",
+        "past": "b471678a",
+        "pp": "c53d44e8"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "drive_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/drive_present.png",
+          "live_hint": "assets/species_s7/drive_present.png"
+        },
+        "past": {
+          "file": "drive_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/drive_past.png",
+          "live_hint": "assets/species_s7/drive_past.png"
+        },
+        "pp": {
+          "file": "drive_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/drive_pp.png",
+          "live_hint": "assets/species_s7/drive_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "shake",
+      "zh": "搖",
+      "fish_id": "s7_shake_shaker_maraca_fish",
+      "fish_species_zh": "搖物魚",
+      "base": "shake",
+      "past": "shook",
+      "pp": "shaken",
+      "accept": {
+        "base": [
+          "shake"
+        ],
+        "past": [
+          "shook"
+        ],
+        "pp": [
+          "shaken"
+        ]
+      },
+      "art_keys": {
+        "present": "5a69a1aa",
+        "past": "941aea38",
+        "pp": "5fa439c8"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "shake_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shake_present.png",
+          "live_hint": "assets/species_s7/shake_present.png"
+        },
+        "past": {
+          "file": "shake_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shake_past.png",
+          "live_hint": "assets/species_s7/shake_past.png"
+        },
+        "pp": {
+          "file": "shake_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shake_pp.png",
+          "live_hint": "assets/species_s7/shake_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "shine",
+      "zh": "閃耀",
+      "fish_id": "s7_shine_sparkle_shine_fish",
+      "fish_species_zh": "閃光魚",
+      "base": "shine",
+      "past": "shone",
+      "pp": "shone",
+      "accept": {
+        "base": [
+          "shine"
+        ],
+        "past": [
+          "shone"
+        ],
+        "pp": [
+          "shone"
+        ]
+      },
+      "art_keys": {
+        "present": "900d487a",
+        "past": "c7da22c3",
+        "pp": "0870a36b"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "shine_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shine_present.png",
+          "live_hint": "assets/species_s7/shine_present.png"
+        },
+        "past": {
+          "file": "shine_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shine_past.png",
+          "live_hint": "assets/species_s7/shine_past.png"
+        },
+        "pp": {
+          "file": "shine_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shine_pp.png",
+          "live_hint": "assets/species_s7/shine_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "shut",
+      "zh": "關",
+      "fish_id": "s7_shut_door_shut_fish",
+      "fish_species_zh": "門關魚",
+      "base": "shut",
+      "past": "shut",
+      "pp": "shut",
+      "accept": {
+        "base": [
+          "shut"
+        ],
+        "past": [
+          "shut"
+        ],
+        "pp": [
+          "shut"
+        ]
+      },
+      "art_keys": {
+        "present": "35ba835d",
+        "past": "deedea76",
+        "pp": "c3b6c237"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "shut_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shut_present.png",
+          "live_hint": "assets/species_s7/shut_present.png"
+        },
+        "past": {
+          "file": "shut_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shut_past.png",
+          "live_hint": "assets/species_s7/shut_past.png"
+        },
+        "pp": {
+          "file": "shut_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/shut_pp.png",
+          "live_hint": "assets/species_s7/shut_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "sing",
+      "zh": "唱",
+      "fish_id": "s7_sing_note_sing_fish",
+      "fish_species_zh": "音符魚",
+      "base": "sing",
+      "past": "sang",
+      "pp": "sung",
+      "accept": {
+        "base": [
+          "sing"
+        ],
+        "past": [
+          "sang"
+        ],
+        "pp": [
+          "sung"
+        ]
+      },
+      "art_keys": {
+        "present": "49353171",
+        "past": "e2641d80",
+        "pp": "d49cb5c9"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "sing_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sing_present.png",
+          "live_hint": "assets/species_s7/sing_present.png"
+        },
+        "past": {
+          "file": "sing_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sing_past.png",
+          "live_hint": "assets/species_s7/sing_past.png"
+        },
+        "pp": {
+          "file": "sing_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sing_pp.png",
+          "live_hint": "assets/species_s7/sing_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "send",
+      "zh": "寄",
+      "fish_id": "s7_send_envelope_send_fish",
+      "fish_species_zh": "信封魚",
+      "base": "send",
+      "past": "sent",
+      "pp": "sent",
+      "accept": {
+        "base": [
+          "send"
+        ],
+        "past": [
+          "sent"
+        ],
+        "pp": [
+          "sent"
+        ]
+      },
+      "art_keys": {
+        "present": "d392e355",
+        "past": "c26e466f",
+        "pp": "d2fb7f7b"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "send_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/send_present.png",
+          "live_hint": "assets/species_s7/send_present.png"
+        },
+        "past": {
+          "file": "send_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/send_past.png",
+          "live_hint": "assets/species_s7/send_past.png"
+        },
+        "pp": {
+          "file": "send_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/send_pp.png",
+          "live_hint": "assets/species_s7/send_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "set",
+      "zh": "較",
+      "fish_id": "s7_set_gear_set_fish",
+      "fish_species_zh": "齒輪針魚",
+      "base": "set",
+      "past": "set",
+      "pp": "set",
+      "accept": {
+        "base": [
+          "set"
+        ],
+        "past": [
+          "set"
+        ],
+        "pp": [
+          "set"
+        ]
+      },
+      "art_keys": {
+        "present": "66dffecb",
+        "past": "c45d56e5",
+        "pp": "03c3ad70"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "set_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/set_present.png",
+          "live_hint": "assets/species_s7/set_present.png"
+        },
+        "past": {
+          "file": "set_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/set_past.png",
+          "live_hint": "assets/species_s7/set_past.png"
+        },
+        "pp": {
+          "file": "set_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/set_pp.png",
+          "live_hint": "assets/species_s7/set_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    },
+    {
+      "id": "sweep",
+      "zh": "掃",
+      "fish_id": "s7_sweep_broom_sweep_fish",
+      "fish_species_zh": "掃把魚",
+      "base": "sweep",
+      "past": "swept",
+      "pp": "swept",
+      "accept": {
+        "base": [
+          "sweep"
+        ],
+        "past": [
+          "swept"
+        ],
+        "pp": [
+          "swept"
+        ]
+      },
+      "art_keys": {
+        "present": "771b01c0",
+        "past": "99f91237",
+        "pp": "2b2fcf12"
+      },
+      "art_status": "KEEP",
+      "unlock": {
+        "present": {
+          "file": "sweep_present.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sweep_present.png",
+          "live_hint": "assets/species_s7/sweep_present.png"
+        },
+        "past": {
+          "file": "sweep_past.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sweep_past.png",
+          "live_hint": "assets/species_s7/sweep_past.png"
+        },
+        "pp": {
+          "file": "sweep_pp.png",
+          "keep_src": "art_ecgo_s7_irregular_fish_bank_v1_2026-11-07/cutouts/sweep_pp.png",
+          "live_hint": "assets/species_s7/sweep_pp.png"
+        }
+      },
+      "playable": true,
+      "first_knife": false,
+      "wave": "B",
+      "note": "Co stamp KEEP bank_v1 Wave B 2026-11-07；唔 tip（程式 tip 估 ecgo48）"
+    }
+  ],
+  "bank_later": [],
+  "bank_later_count": 0,
+  "notes_for_engineer": [
+    "ecgo46 soft tip：19 verbs all KEEP art in assets/species_s7/（15 first knife＋42 bank）",
+    "First knife 5 untouched md5（draw／fly／get／grow／know）— do not overwrite from bank pack",
+    "Bank 14 from art_ecgo_s7_irregular_fish_bank_v0_2026-11-07/cutouts/",
+    "Load this JSON；底 soft ecgo45／keep ecgo44；唔 promote；PASS LOCK Co 1:1",
+    "Do not edit S1–6 banks"
+  ],
+  "verbs_ready_count": 19,
+  "verbs_need_art_count": 0,
+  "soft_tip_next_after_art": "ecgo48_est",
+  "verbs_keep_count": 81,
+  "verbs_reg_stub_count": 6,
+  "verbs_special_stub_count": 1,
+  "verbs_playable_count": 81,
+  "wave_a_ids": [
+    "be",
+    "become",
+    "bite",
+    "break",
+    "build",
+    "buy",
+    "choose",
+    "cut",
+    "do",
+    "fall",
+    "feel",
+    "find",
+    "forget",
+    "have",
+    "hear",
+    "hold",
+    "hurt",
+    "keep",
+    "leave",
+    "lose"
+  ],
+  "wave_b_pending": [],
+  "wave_b_pending_count": 0,
+  "wave_b_ids": [
+    "burn",
+    "cost",
+    "feed",
+    "lie",
+    "light",
+    "make",
+    "mean",
+    "meet",
+    "pay",
+    "put",
+    "quit",
+    "read",
+    "ride",
+    "ring",
+    "run",
+    "say",
+    "sell",
+    "shoot",
+    "lend",
+    "fight",
+    "sit",
+    "sleep",
+    "speak",
+    "spend",
+    "spread",
+    "stand",
+    "teach",
+    "tell",
+    "think",
+    "understand",
+    "wake",
+    "wear",
+    "win",
+    "let",
+    "drive",
+    "shake",
+    "shine",
+    "shut",
+    "sing",
+    "send",
+    "set",
+    "sweep"
+  ]
+}

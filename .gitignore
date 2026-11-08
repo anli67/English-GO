@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+.DS_Store
+*.log
+.vscode/
+.idea/
+_qc/
+WIRE_*
+*_KEEP_*
+*.tgz
+*.blend1
+Thumbs.db
+._*
+*.bak
+*.bak_*
+.soft_tip*

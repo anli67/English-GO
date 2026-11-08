@@ -1,0 +1,371 @@
+{
+  "project": "english_catch_go",
+  "pack": "species_drstone_cute_v0_2026-10-27",
+  "date": "2026-10-27",
+  "presentation": "creature_catch_encounter_front_slight_3d",
+  "aspect": "9:16",
+  "dna_bank": "species_mix_vibe_v1_2026-10-26",
+  "craft_ref": "refs_pogo_feed_2026-10-26/encounter_front_shellder_go_2026-10-26.png",
+  "knife": {
+    "primary": "English invention word readable at a glance",
+    "pose": "STRICT front view facing camera + soft contact shadow",
+    "render": "slight 3D volumetric GO encounter model look",
+    "scene": "daytime grassy park; no catch orb / AR UI / logos",
+    "microscope": "LOCKED A ghost+lens identity keep",
+    "drstone_cute_swap": "ecgo23: id1-9 swapped; id10+L2/L3 HOLD; S2 cutouts draft only",
+    "ecgo24": "OPEN Stage2 DRAFT_PLAYTEST; SPIN band BRIEF; NO gengar; friends_walk_cutout pack HOLD for Co PASS",
+    "ecgo25": "PASS LOCK friends_walk_cutout_tone_throw_spin pack swap; KEEP Stage2 DRAFT+SPIN; NO gengar / NO species_l2_same_dna_gear"
+  },
+  "species": [
+    {
+      "id": 1,
+      "word": "a lift",
+      "file": "01_lift.png",
+      "ghost": false,
+      "idle_frames": [
+        "01_lift_a.png",
+        "01_lift_b.png"
+      ],
+      "map_file": "01_lift.png"
+    },
+    {
+      "id": 2,
+      "word": "an air conditioner",
+      "file": "02_air_conditioner.png",
+      "ghost": false,
+      "idle_frames": [
+        "02_air_conditioner_a.png",
+        "02_air_conditioner_b.png"
+      ],
+      "map_file": "02_air_conditioner.png"
+    },
+    {
+      "id": 3,
+      "word": "a magnet",
+      "file": "03_magnet.png",
+      "ghost": false,
+      "idle_frames": [
+        "03_magnet_a.png",
+        "03_magnet_b.png"
+      ],
+      "map_file": "03_magnet.png"
+    },
+    {
+      "id": 4,
+      "word": "a light bulb",
+      "file": "04_light_bulb.png",
+      "ghost": false,
+      "idle_frames": [
+        "04_light_bulb_a.png",
+        "04_light_bulb_b.png",
+        "04_light_bulb_c.png"
+      ],
+      "map_file": "04_light_bulb.png"
+    },
+    {
+      "id": 5,
+      "word": "a photocopier",
+      "file": "05_photocopier.png",
+      "ghost": false,
+      "idle_frames": [
+        "05_photocopier_a.png",
+        "05_photocopier_b.png"
+      ],
+      "map_file": "05_photocopier.png"
+    },
+    {
+      "id": 6,
+      "word": "a steam iron",
+      "file": "06_steam_iron.png",
+      "ghost": false,
+      "idle_frames": [
+        "06_steam_iron_a.png",
+        "06_steam_iron_b.png"
+      ],
+      "map_file": "06_steam_iron.png"
+    },
+    {
+      "id": 7,
+      "word": "a vacuum cleaner",
+      "file": "07_vacuum_cleaner.png",
+      "ghost": false,
+      "idle_frames": [
+        "07_vacuum_cleaner_a.png",
+        "07_vacuum_cleaner_b.png"
+      ],
+      "map_file": "07_vacuum_cleaner.png"
+    },
+    {
+      "id": 8,
+      "word": "a thermometer",
+      "file": "08_thermometer.png",
+      "ghost": false,
+      "idle_frames": [
+        "08_thermometer_a.png",
+        "08_thermometer_b.png"
+      ],
+      "map_file": "08_thermometer.png"
+    },
+    {
+      "id": 9,
+      "word": "a first-aid box",
+      "file": "09_first_aid_box.png",
+      "ghost": false,
+      "idle_frames": [
+        "09_first_aid_box_a.png",
+        "09_first_aid_box_b.png"
+      ],
+      "map_file": "09_first_aid_box.png"
+    },
+    {
+      "id": 10,
+      "word": "a microscope",
+      "file": "10_microscope.png",
+      "ghost": true,
+      "lock": "PASS LOCK gengar microscope evo ecgo30",
+      "idle_frames": [
+        "10_microscope_a.png",
+        "10_microscope_b.png"
+      ],
+      "map_file": "10_microscope.png"
+    },
+    {
+      "id": 101,
+      "term_hint": "shower",
+      "file": "species_s2/101_shower.png",
+      "map_file": "species_s2/map/101_shower.png",
+      "idle_frames": [
+        "species_s2/map/101_shower.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 102,
+      "term_hint": "invention",
+      "file": "species_s2/102_invention.png",
+      "map_file": "species_s2/map/102_invention.png",
+      "idle_frames": [
+        "species_s2/map/102_invention.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 103,
+      "term_hint": "summer day",
+      "file": "species_s2/103_summer_day.png",
+      "map_file": "species_s2/map/103_summer_day.png",
+      "idle_frames": [
+        "species_s2/map/103_summer_day.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 104,
+      "term_hint": "guess",
+      "file": "species_s2/104_guess.png",
+      "map_file": "species_s2/map/104_guess.png",
+      "idle_frames": [
+        "species_s2/map/104_guess.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 105,
+      "term_hint": "coldest winter evening",
+      "file": "species_s2/105_coldest_winter_evening.png",
+      "map_file": "species_s2/map/105_coldest_winter_evening.png",
+      "idle_frames": [
+        "species_s2/map/105_coldest_winter_evening.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 106,
+      "term_hint": "sweet colourful drink",
+      "file": "species_s2/106_sweet_colourful_drink.png",
+      "map_file": "species_s2/map/106_sweet_colourful_drink.png",
+      "idle_frames": [
+        "species_s2/map/106_sweet_colourful_drink.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 107,
+      "term_hint": "experiment",
+      "file": "species_s2/107_experiment.png",
+      "map_file": "species_s2/map/107_experiment.png",
+      "idle_frames": [
+        "species_s2/map/107_experiment.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 108,
+      "term_hint": "experiments",
+      "file": "species_s2/108_experiments.png",
+      "map_file": "species_s2/map/108_experiments.png",
+      "idle_frames": [
+        "species_s2/map/108_experiments.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 109,
+      "term_hint": "fruit flavoured mixture",
+      "file": "species_s2/109_fruit_flavoured_mixture.png",
+      "map_file": "species_s2/map/109_fruit_flavoured_mixture.png",
+      "idle_frames": [
+        "species_s2/map/109_fruit_flavoured_mixture.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 110,
+      "term_hint": "stirring stick",
+      "file": "species_s2/110_stirring_stick.png",
+      "map_file": "species_s2/map/110_stirring_stick.png",
+      "idle_frames": [
+        "species_s2/map/110_stirring_stick.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 111,
+      "term_hint": "frozen to the stick",
+      "file": "species_s2/111_frozen_to_the_stick.png",
+      "map_file": "species_s2/map/111_frozen_to_the_stick.png",
+      "idle_frames": [
+        "species_s2/map/111_frozen_to_the_stick.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 112,
+      "term_hint": "delicious",
+      "file": "species_s2/112_delicious.png",
+      "map_file": "species_s2/map/112_delicious.png",
+      "idle_frames": [
+        "species_s2/map/112_delicious.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 113,
+      "term_hint": "wife",
+      "file": "species_s2/113_wife.png",
+      "map_file": "species_s2/map/113_wife.png",
+      "idle_frames": [
+        "species_s2/map/113_wife.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 114,
+      "term_hint": "patent",
+      "file": "species_s2/114_patent.png",
+      "map_file": "species_s2/map/114_patent.png",
+      "idle_frames": [
+        "species_s2/map/114_patent.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 115,
+      "term_hint": "producing",
+      "file": "species_s2/115_producing.png",
+      "map_file": "species_s2/map/115_producing.png",
+      "idle_frames": [
+        "species_s2/map/115_producing.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 116,
+      "term_hint": "ice lollies",
+      "file": "species_s2/116_ice_lollies.png",
+      "map_file": "species_s2/map/116_ice_lollies.png",
+      "idle_frames": [
+        "species_s2/map/116_ice_lollies.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 117,
+      "term_hint": "flavours",
+      "file": "species_s2/117_flavours.png",
+      "map_file": "species_s2/map/117_flavours.png",
+      "idle_frames": [
+        "species_s2/map/117_flavours.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 118,
+      "term_hint": "rich enough",
+      "file": "species_s2/118_rich_enough.png",
+      "map_file": "species_s2/map/118_rich_enough.png",
+      "idle_frames": [
+        "species_s2/map/118_rich_enough.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 119,
+      "term_hint": "machine to manufacture",
+      "file": "species_s2/119_machine_to_manufacture.png",
+      "map_file": "species_s2/map/119_machine_to_manufacture.png",
+      "idle_frames": [
+        "species_s2/map/119_machine_to_manufacture.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 120,
+      "term_hint": "popsicle king",
+      "file": "species_s2/120_popsicle_king.png",
+      "map_file": "species_s2/map/120_popsicle_king.png",
+      "idle_frames": [
+        "species_s2/map/120_popsicle_king.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    },
+    {
+      "id": 121,
+      "term_hint": "in honour",
+      "file": "species_s2/121_in_honour.png",
+      "map_file": "species_s2/map/121_in_honour.png",
+      "idle_frames": [
+        "species_s2/map/121_in_honour.png"
+      ],
+      "stage": 2,
+      "lock": "PASS LOCK ecgo30 2026-10-27"
+    }
+  ],
+  "status": "PASS LOCK ecgo30 — pairing＋species_l2＋gengar＋verb_pose",
+  "map_pack": "map_sprites_3d_idle_v1_2026-10-26",
+  "invent_orb": {
+    "file": "invent_orb/invent_orb_F.png",
+    "spin_fx": "invent_orb/invent_orb_F_spin_fx.png"
+  },
+  "ecgo30": "2026-10-27"
+}

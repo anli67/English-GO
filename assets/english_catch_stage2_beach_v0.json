@@ -1,0 +1,379 @@
+{
+  "version": "english_catch_stage2_beach_v0",
+  "date": "2026-10-27",
+  "status": "LOCKED — Owner PASS LOCK 2026-10-27（pairing＋pos＋Stage2 詞表）",
+  "stage": 2,
+  "map": "沙灘 beach",
+  "theme": "invention / ice lolly (Popsicle) passage — 原創發明種；無官方商標角色",
+  "source": "Owner internal note 2026-10-27 08:00 HK",
+  "count": 21,
+  "catch_rate": 0.125,
+  "stage1_keep": "english_catch_vocab_v0.json 10/10 keep",
+  "words": [
+    {
+      "id": 101,
+      "stage": 2,
+      "term": "shower",
+      "display": "shower",
+      "article": "",
+      "meaning": "淋浴；一陣雨／灑水。",
+      "creature_idea": "沙灘花灑雲：水珠身體＋花灑頭角",
+      "catch_rate": 0.125,
+      "accept": [
+        "shower"
+      ],
+      "pos": "CLEAR_VERB",
+      "pos_detail": "VERB"
+    },
+    {
+      "id": 102,
+      "stage": 2,
+      "term": "invention",
+      "display": "invention",
+      "article": "",
+      "meaning": "發明；創造出來的新東西。",
+      "creature_idea": "靈感燈泡蟲：齒輪翅＋燈泡頭",
+      "catch_rate": 0.125,
+      "accept": [
+        "invention"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NOUN"
+    },
+    {
+      "id": 103,
+      "stage": 2,
+      "term": "summer day",
+      "display": "summer day",
+      "article": "",
+      "meaning": "夏日；夏天的一天。",
+      "creature_idea": "太陽沙灘蟲：圓陽身體＋泳圈",
+      "catch_rate": 0.125,
+      "accept": [
+        "summer day"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NP"
+    },
+    {
+      "id": 104,
+      "stage": 2,
+      "term": "guess",
+      "display": "guess",
+      "article": "",
+      "meaning": "猜測；猜想。",
+      "creature_idea": "問號貝殼精：貝殼身＋？觸角",
+      "catch_rate": 0.125,
+      "accept": [
+        "guess"
+      ],
+      "pos": "CLEAR_VERB",
+      "pos_detail": "VERB"
+    },
+    {
+      "id": 105,
+      "stage": 2,
+      "term": "coldest winter evening",
+      "display": "coldest winter evening",
+      "article": "",
+      "meaning": "最冷的冬夜。",
+      "creature_idea": "寒夜雪晶蟲：藍冰身體＋星夜披風",
+      "catch_rate": 0.125,
+      "accept": [
+        "coldest winter evening"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NP"
+    },
+    {
+      "id": 106,
+      "stage": 2,
+      "term": "sweet and colourful drink",
+      "display": "sweet and colourful drink",
+      "article": "",
+      "meaning": "又甜又色彩豐富的飲料。",
+      "creature_idea": "彩虹飲品怪：杯身＋吸管角＋果片翅",
+      "catch_rate": 0.125,
+      "accept": [
+        "sweet and colourful drink"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NP"
+    },
+    {
+      "id": 107,
+      "stage": 2,
+      "term": "experiment",
+      "display": "experiment",
+      "article": "",
+      "meaning": "實驗（單數）。",
+      "creature_idea": "燒杯實驗蟲：燒杯身＋泡沫帽",
+      "catch_rate": 0.125,
+      "accept": [
+        "experiment"
+      ],
+      "pos": "VERB_OK",
+      "pos_detail": "NOUN/VERB"
+    },
+    {
+      "id": 108,
+      "stage": 2,
+      "term": "experiments",
+      "display": "experiments",
+      "article": "",
+      "meaning": "實驗（複數）。",
+      "creature_idea": "連環燒杯小隊：三燒杯疊＋護目鏡",
+      "catch_rate": 0.125,
+      "accept": [
+        "experiments"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NOUN"
+    },
+    {
+      "id": 109,
+      "stage": 2,
+      "term": "fruit-flavoured mixture",
+      "display": "fruit-flavoured mixture",
+      "article": "",
+      "meaning": "有水果味的混合物。",
+      "creature_idea": "水果攪拌怪：果汁漩渦身＋果片盔",
+      "catch_rate": 0.125,
+      "accept": [
+        "fruit-flavoured mixture"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NP"
+    },
+    {
+      "id": 110,
+      "stage": 2,
+      "term": "stirring stick",
+      "display": "stirring stick",
+      "article": "",
+      "meaning": "攪拌用的棒。",
+      "creature_idea": "攪拌棒蟲：長棍身＋螺旋槳尾",
+      "catch_rate": 0.125,
+      "accept": [
+        "stirring stick"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NP"
+    },
+    {
+      "id": 111,
+      "stage": 2,
+      "term": "frozen to the stick",
+      "display": "frozen to the stick",
+      "article": "",
+      "meaning": "凍在棒上。",
+      "creature_idea": "冰棒黏棍精：冰棒身黏住木棍",
+      "catch_rate": 0.125,
+      "accept": [
+        "frozen to the stick"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "ADJP"
+    },
+    {
+      "id": 112,
+      "stage": 2,
+      "term": "delicious",
+      "display": "delicious",
+      "article": "",
+      "meaning": "美味的。",
+      "creature_idea": "美味星星蟲：星星糖身＋舔嘴表情",
+      "catch_rate": 0.125,
+      "accept": [
+        "delicious"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "ADJ"
+    },
+    {
+      "id": 113,
+      "stage": 2,
+      "term": "wife",
+      "display": "wife",
+      "article": "",
+      "meaning": "妻子。",
+      "creature_idea": "溫柔伙伴蟲：圍裙小發明精靈（原創非真人）",
+      "catch_rate": 0.125,
+      "accept": [
+        "wife"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NOUN"
+    },
+    {
+      "id": 114,
+      "stage": 2,
+      "term": "patent",
+      "display": "patent",
+      "article": "",
+      "meaning": "專利（權）。",
+      "creature_idea": "證書卷軸蟲：卷軸身＋印章角",
+      "catch_rate": 0.125,
+      "accept": [
+        "patent"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NOUN"
+    },
+    {
+      "id": 115,
+      "stage": 2,
+      "term": "producing",
+      "display": "producing",
+      "article": "",
+      "meaning": "生產；製造（進行式／動名詞）。",
+      "creature_idea": "工廠輸送帶蟲：齒輪身＋輸送帶腳",
+      "catch_rate": 0.125,
+      "accept": [
+        "producing"
+      ],
+      "pos": "CLEAR_VERB",
+      "pos_detail": "VERB"
+    },
+    {
+      "id": 116,
+      "stage": 2,
+      "term": "ice lollies",
+      "display": "ice lollies",
+      "article": "",
+      "meaning": "冰棒（英式；複數）。",
+      "creature_idea": "冰棒精靈群：彩色冰棒身體",
+      "catch_rate": 0.125,
+      "accept": [
+        "ice lollies"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NOUN"
+    },
+    {
+      "id": 117,
+      "stage": 2,
+      "term": "flavours",
+      "display": "flavours",
+      "article": "",
+      "meaning": "味道；口味（複數）。",
+      "creature_idea": "口味調色盤蟲：調色盤身＋果味點",
+      "catch_rate": 0.125,
+      "accept": [
+        "flavours"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NOUN"
+    },
+    {
+      "id": 118,
+      "stage": 2,
+      "term": "rich enough",
+      "display": "rich enough",
+      "article": "",
+      "meaning": "夠富裕／夠濃／夠豐富。",
+      "creature_idea": "金幣蜜糖蟲：蜜罐身＋金幣翅",
+      "catch_rate": 0.125,
+      "accept": [
+        "rich enough"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "ADJP"
+    },
+    {
+      "id": 119,
+      "stage": 2,
+      "term": "machine to manufacture",
+      "display": "machine to manufacture",
+      "article": "",
+      "meaning": "用來製造的機器。",
+      "creature_idea": "製冰機怪：機器身＋冰棒出口",
+      "catch_rate": 0.125,
+      "accept": [
+        "machine to manufacture"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NP"
+    },
+    {
+      "id": 120,
+      "stage": 2,
+      "term": "ice lolly 'Popsicle'",
+      "display": "ice lolly Popsicle",
+      "article": "",
+      "meaning": "名為 Popsicle 的冰棒（課文專名；卡面可寫 ice lolly Popsicle）。",
+      "creature_idea": "經典冰棒王：木棍冰棒王者披風（原創名；唔用商標 logo）",
+      "catch_rate": 0.125,
+      "accept": [
+        "Popsicle",
+        "ice lolly",
+        "ice lolly 'Popsicle'",
+        "ice lolly Popsicle"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "NOUN"
+    },
+    {
+      "id": 121,
+      "stage": 2,
+      "term": "in honour",
+      "display": "in honour",
+      "article": "",
+      "meaning": "為了向……致敬；紀念。",
+      "creature_idea": "榮譽獎盃蟲：獎盃身＋絲帶",
+      "catch_rate": 0.125,
+      "accept": [
+        "in honor",
+        "in honour"
+      ],
+      "pos": "NOT_VERB",
+      "pos_detail": "PP"
+    }
+  ],
+  "gameplay": {
+    "map": "beach",
+    "catch_rate": 0.125,
+    "evo": "L2@5／L3@10 keep（跟 ecgo21）",
+    "encounter_layout": "跟 E_layout；角式退地＋放大（刀③）",
+    "catch_bonuses": {
+      "base": 0.125,
+      "spin_exact_pct": 75,
+      "spin_exact_rate": 0.6,
+      "spin_band_pct": [
+        72,
+        78
+      ],
+      "spin_band_add": 0.3,
+      "spin_note": "exact 75% → rate=0.60 absolute; else 72–78% → base+0.30pp; then type×1.2; clamp≤1",
+      "type_fast_sec": 5,
+      "type_fast_bonus_mult": 1.2,
+      "stack": true,
+      "clamp_max": 1.0
+    }
+  },
+  "owners": {
+    "小學_洋溫書": "本 JSON／BRIEF／詞表",
+    "美術": "沙灘 map＋21 精靈＋遇敵退地放大＋洋背向／側＋主畫面正面＋朋友同行唔切邊",
+    "程式": "Stage2 入口＋beach map＋load 本詞表；BGM 換曲（刀⑥）"
+  },
+  "playtest_unlocked": true,
+  "playtest_date": "2026-10-27",
+  "catch_bonuses": {
+    "base": 0.125,
+    "spin_exact_pct": 75,
+    "spin_exact_rate": 0.6,
+    "spin_band_pct": [
+      72,
+      78
+    ],
+    "spin_band_add": 0.3,
+    "spin_note": "exact 75% → rate=0.60 absolute; else 72–78% → base+0.30pp; then type×1.2; clamp≤1",
+    "type_fast_sec": 5,
+    "type_fast_bonus_mult": 1.2,
+    "stack": true,
+    "clamp_max": 1.0
+  },
+  "playtest_note": "ecgo24 DRAFT playtest — Stage2 open; vocab not LOCK",
+  "lock_date": "2026-10-27",
+  "lock_note": "PASS LOCK 2026-10-27 — pairing／pos／Stage2 詞表跟 LOCK；程式可 wire"
+}

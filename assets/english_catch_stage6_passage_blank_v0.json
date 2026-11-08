@@ -1,0 +1,611 @@
+{
+  "version": "english_catch_stage6_passage_blank_v0",
+  "date": "2026-11-01",
+  "status": "DRAFT — Owner ALL APPROVE scope；等 Co／Owner PASS LOCK；唔 wire／唔 bump keep",
+  "stage": 6,
+  "map": "passage_fill",
+  "map_art_note": "可重用 passage_fill UI；可選醫院／診所內部或身體實驗室地圖 → NEED_ART",
+  "theme": "Dictation (2) Part B fill blanks → spawn sprite per correct blank；blank types: subject / verb / preposition / punctuation",
+  "source": "School 2026-2027 GENERAL ENGLISH DICTATION REVISION (2) Part B Content",
+  "passage_full": "Although you are not always aware of it, your body is constantly working. Although you are sleeping, your brain is still awake, sorting and storing information. If you do not get enough sleep, your brain will not work properly. Your heart never stops. It is constantly pumping blood around your body to bring oxygen and nutrients to your organs.\n\nIf your nose itches, a blast of air will come from your lungs to make you sneeze. Coughing is important, although it can be annoying. You will cough if there is something in your throat or lungs that should not be there.\n\nTo keep your body healthy and happy, you must eat well, get lots of exercise, and sleep for eight hours every night.",
+  "blank_types": [
+    "subject",
+    "verb",
+    "preposition",
+    "punctuation"
+  ],
+  "gameplay": {
+    "show": "full Part B with blanks",
+    "on_correct_blank": "spawn +1 sprite on screen (reuse S1/S2/S4/S5 cutouts if art not ready)",
+    "record": "ecgo_v1_* keep across ?v="
+  },
+  "count": 37,
+  "blanks": [
+    {
+      "id": 601,
+      "type": "subject",
+      "answer": "you",
+      "accept": [
+        "you",
+        "You"
+      ],
+      "context": "Although ___ are not always",
+      "hint": "subject"
+    },
+    {
+      "id": 602,
+      "type": "preposition",
+      "answer": "of",
+      "accept": [
+        "of"
+      ],
+      "context": "aware ___ it"
+    },
+    {
+      "id": 603,
+      "type": "punctuation",
+      "answer": ",",
+      "accept": [
+        ","
+      ],
+      "context": "of it___ your body"
+    },
+    {
+      "id": 604,
+      "type": "subject",
+      "answer": "your body",
+      "accept": [
+        "your body",
+        "Your body"
+      ],
+      "context": "it, ___ is constantly",
+      "hint": "subject NP"
+    },
+    {
+      "id": 605,
+      "type": "verb",
+      "answer": "working",
+      "accept": [
+        "working"
+      ],
+      "context": "constantly ___."
+    },
+    {
+      "id": 606,
+      "type": "punctuation",
+      "answer": ".",
+      "accept": [
+        "."
+      ],
+      "context": "working___ Although"
+    },
+    {
+      "id": 607,
+      "type": "subject",
+      "answer": "your brain",
+      "accept": [
+        "your brain",
+        "Your brain"
+      ],
+      "context": "sleeping, ___ is still",
+      "hint": "subject NP"
+    },
+    {
+      "id": 608,
+      "type": "verb",
+      "answer": "sorting",
+      "accept": [
+        "sorting"
+      ],
+      "context": "awake, ___ and storing"
+    },
+    {
+      "id": 609,
+      "type": "verb",
+      "answer": "storing",
+      "accept": [
+        "storing"
+      ],
+      "context": "and ___ information"
+    },
+    {
+      "id": 610,
+      "type": "punctuation",
+      "answer": ".",
+      "accept": [
+        "."
+      ],
+      "context": "information___ If you"
+    },
+    {
+      "id": 611,
+      "type": "verb",
+      "answer": "get",
+      "accept": [
+        "get"
+      ],
+      "context": "do not ___ enough sleep"
+    },
+    {
+      "id": 612,
+      "type": "verb",
+      "answer": "work",
+      "accept": [
+        "work"
+      ],
+      "context": "will not ___ properly"
+    },
+    {
+      "id": 613,
+      "type": "subject",
+      "answer": "Your heart",
+      "accept": [
+        "Your heart",
+        "your heart"
+      ],
+      "context": "properly. ___ never stops",
+      "hint": "subject NP"
+    },
+    {
+      "id": 614,
+      "type": "verb",
+      "answer": "stops",
+      "accept": [
+        "stops"
+      ],
+      "context": "heart never ___"
+    },
+    {
+      "id": 615,
+      "type": "subject",
+      "answer": "It",
+      "accept": [
+        "It",
+        "it"
+      ],
+      "context": "stops. ___ is constantly",
+      "hint": "subject"
+    },
+    {
+      "id": 616,
+      "type": "verb",
+      "answer": "pumping",
+      "accept": [
+        "pumping"
+      ],
+      "context": "constantly ___ blood"
+    },
+    {
+      "id": 617,
+      "type": "preposition",
+      "answer": "around",
+      "accept": [
+        "around"
+      ],
+      "context": "blood ___ your body"
+    },
+    {
+      "id": 618,
+      "type": "preposition",
+      "answer": "to",
+      "accept": [
+        "to"
+      ],
+      "context": "body ___ bring oxygen"
+    },
+    {
+      "id": 619,
+      "type": "preposition",
+      "answer": "to",
+      "accept": [
+        "to"
+      ],
+      "context": "nutrients ___ your organs"
+    },
+    {
+      "id": 620,
+      "type": "punctuation",
+      "answer": ".",
+      "accept": [
+        "."
+      ],
+      "context": "organs___ (para end)"
+    },
+    {
+      "id": 621,
+      "type": "subject",
+      "answer": "your nose",
+      "accept": [
+        "your nose",
+        "Your nose"
+      ],
+      "context": "If ___ itches",
+      "hint": "subject NP"
+    },
+    {
+      "id": 622,
+      "type": "verb",
+      "answer": "itches",
+      "accept": [
+        "itches"
+      ],
+      "context": "nose ___,"
+    },
+    {
+      "id": 623,
+      "type": "subject",
+      "answer": "a blast of air",
+      "accept": [
+        "a blast of air",
+        "A blast of air"
+      ],
+      "context": "itches, ___ will come",
+      "hint": "subject NP"
+    },
+    {
+      "id": 624,
+      "type": "verb",
+      "answer": "come",
+      "accept": [
+        "come"
+      ],
+      "context": "will ___ from your lungs"
+    },
+    {
+      "id": 625,
+      "type": "preposition",
+      "answer": "from",
+      "accept": [
+        "from"
+      ],
+      "context": "come ___ your lungs"
+    },
+    {
+      "id": 626,
+      "type": "verb",
+      "answer": "sneeze",
+      "accept": [
+        "sneeze"
+      ],
+      "context": "make you ___"
+    },
+    {
+      "id": 627,
+      "type": "punctuation",
+      "answer": ".",
+      "accept": [
+        "."
+      ],
+      "context": "sneeze___ Coughing"
+    },
+    {
+      "id": 628,
+      "type": "subject",
+      "answer": "Coughing",
+      "accept": [
+        "Coughing",
+        "coughing"
+      ],
+      "context": "___ is important",
+      "hint": "subject (gerund)"
+    },
+    {
+      "id": 629,
+      "type": "punctuation",
+      "answer": ".",
+      "accept": [
+        "."
+      ],
+      "context": "annoying___ You will"
+    },
+    {
+      "id": 630,
+      "type": "verb",
+      "answer": "cough",
+      "accept": [
+        "cough"
+      ],
+      "context": "will ___ if there"
+    },
+    {
+      "id": 631,
+      "type": "preposition",
+      "answer": "in",
+      "accept": [
+        "in"
+      ],
+      "context": "something ___ your throat"
+    },
+    {
+      "id": 632,
+      "type": "punctuation",
+      "answer": ".",
+      "accept": [
+        "."
+      ],
+      "context": "be there___ (para end)"
+    },
+    {
+      "id": 633,
+      "type": "verb",
+      "answer": "keep",
+      "accept": [
+        "keep"
+      ],
+      "context": "To ___ your body"
+    },
+    {
+      "id": 634,
+      "type": "verb",
+      "answer": "get",
+      "accept": [
+        "get"
+      ],
+      "context": "well, ___ lots of exercise"
+    },
+    {
+      "id": 635,
+      "type": "verb",
+      "answer": "sleep",
+      "accept": [
+        "sleep"
+      ],
+      "context": "and ___ for eight"
+    },
+    {
+      "id": 636,
+      "type": "preposition",
+      "answer": "for",
+      "accept": [
+        "for"
+      ],
+      "context": "sleep ___ eight hours"
+    },
+    {
+      "id": 637,
+      "type": "punctuation",
+      "answer": ".",
+      "accept": [
+        "."
+      ],
+      "context": "every night___"
+    }
+  ],
+  "passage_marked": "Although {{601}} are not always aware {{602}} it{{603}} {{604}} is constantly {{605}}{{606}} Although you are sleeping, {{607}} is still awake, {{608}} and {{609}} information{{610}} If you do not {{611}} enough sleep, your brain will not {{612}} properly. {{613}} never {{614}}. {{615}} is constantly {{616}} blood {{617}} your body {{618}} bring oxygen and nutrients {{619}} your organs{{620}}\n\nIf {{621}} {{622}}, {{623}} will {{624}} {{625}} your lungs to make you {{626}}{{627}} {{628}} is important, although it can be annoying{{629}} You will {{630}} if there is someth{{631}}g in your throat or lungs that should not be there{{632}}\n\nTo {{633}} your body healthy and happy, you must eat well, {{634}} lots of exercise, and {{635}} {{636}} eight hours every night{{637}}",
+  "blank_spans": [
+    {
+      "id": 601,
+      "start": 9,
+      "end": 12,
+      "answer": "you"
+    },
+    {
+      "id": 602,
+      "start": 34,
+      "end": 36,
+      "answer": "of"
+    },
+    {
+      "id": 603,
+      "start": 39,
+      "end": 40,
+      "answer": ","
+    },
+    {
+      "id": 604,
+      "start": 41,
+      "end": 50,
+      "answer": "your body"
+    },
+    {
+      "id": 605,
+      "start": 65,
+      "end": 72,
+      "answer": "working"
+    },
+    {
+      "id": 606,
+      "start": 72,
+      "end": 73,
+      "answer": "."
+    },
+    {
+      "id": 607,
+      "start": 101,
+      "end": 111,
+      "answer": "your brain"
+    },
+    {
+      "id": 608,
+      "start": 128,
+      "end": 135,
+      "answer": "sorting"
+    },
+    {
+      "id": 609,
+      "start": 140,
+      "end": 147,
+      "answer": "storing"
+    },
+    {
+      "id": 610,
+      "start": 159,
+      "end": 160,
+      "answer": "."
+    },
+    {
+      "id": 611,
+      "start": 175,
+      "end": 178,
+      "answer": "get"
+    },
+    {
+      "id": 612,
+      "start": 213,
+      "end": 217,
+      "answer": "work"
+    },
+    {
+      "id": 613,
+      "start": 228,
+      "end": 238,
+      "answer": "Your heart"
+    },
+    {
+      "id": 614,
+      "start": 245,
+      "end": 250,
+      "answer": "stops"
+    },
+    {
+      "id": 615,
+      "start": 252,
+      "end": 254,
+      "answer": "It"
+    },
+    {
+      "id": 616,
+      "start": 269,
+      "end": 276,
+      "answer": "pumping"
+    },
+    {
+      "id": 617,
+      "start": 283,
+      "end": 289,
+      "answer": "around"
+    },
+    {
+      "id": 618,
+      "start": 300,
+      "end": 302,
+      "answer": "to"
+    },
+    {
+      "id": 619,
+      "start": 330,
+      "end": 332,
+      "answer": "to"
+    },
+    {
+      "id": 620,
+      "start": 344,
+      "end": 345,
+      "answer": "."
+    },
+    {
+      "id": 621,
+      "start": 350,
+      "end": 359,
+      "answer": "your nose"
+    },
+    {
+      "id": 622,
+      "start": 360,
+      "end": 366,
+      "answer": "itches"
+    },
+    {
+      "id": 623,
+      "start": 368,
+      "end": 382,
+      "answer": "a blast of air"
+    },
+    {
+      "id": 624,
+      "start": 388,
+      "end": 392,
+      "answer": "come"
+    },
+    {
+      "id": 625,
+      "start": 393,
+      "end": 397,
+      "answer": "from"
+    },
+    {
+      "id": 626,
+      "start": 421,
+      "end": 427,
+      "answer": "sneeze"
+    },
+    {
+      "id": 627,
+      "start": 427,
+      "end": 428,
+      "answer": "."
+    },
+    {
+      "id": 628,
+      "start": 429,
+      "end": 437,
+      "answer": "Coughing"
+    },
+    {
+      "id": 629,
+      "start": 479,
+      "end": 480,
+      "answer": "."
+    },
+    {
+      "id": 630,
+      "start": 490,
+      "end": 495,
+      "answer": "cough"
+    },
+    {
+      "id": 631,
+      "start": 514,
+      "end": 516,
+      "answer": "in"
+    },
+    {
+      "id": 632,
+      "start": 566,
+      "end": 567,
+      "answer": "."
+    },
+    {
+      "id": 633,
+      "start": 572,
+      "end": 576,
+      "answer": "keep"
+    },
+    {
+      "id": 634,
+      "start": 625,
+      "end": 628,
+      "answer": "get"
+    },
+    {
+      "id": 635,
+      "start": 651,
+      "end": 656,
+      "answer": "sleep"
+    },
+    {
+      "id": 636,
+      "start": 657,
+      "end": 660,
+      "answer": "for"
+    },
+    {
+      "id": 637,
+      "start": 684,
+      "end": 685,
+      "answer": "."
+    }
+  ],
+  "type_counts": {
+    "subject": 8,
+    "preposition": 7,
+    "punctuation": 8,
+    "verb": 14
+  },
+  "owners": {
+    "小學_洋溫書": "KNIFE＋本 JSON DRAFT",
+    "程式": "Stage6 UI＋wire 試玩 bump；唔自行 keep",
+    "美術": "NEED_ART maps＋species L1–3；SAMPLE 走美術_APP／主管"
+  },
+  "stage1_3_keep": "DO NOT MODIFY Stage1–3；live keep ecgo35"
+}

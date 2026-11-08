@@ -1,0 +1,269 @@
+{
+  "project": "english_catch_go",
+  "pack": "art_ecgo_7family_full_sample_v0_2026-11-01 + brain/heart/bones prior",
+  "stage": 4,
+  "species": [
+    {
+      "id": 401,
+      "term_hint": "brain",
+      "file": "species_s4/401_brain.png",
+      "map_file": "species_s4/map/401_brain.png",
+      "idle_frames": [
+        "species_s4/map/401_brain.png"
+      ],
+      "stage": 4,
+      "evo_family": "brain",
+      "art": "SAMPLE_v0",
+      "lock": "ecgo41 PASS LOCK keep live — SAMPLE wired (brain/heart/bones); 唔改 S1–3"
+    },
+    {
+      "id": 402,
+      "term_hint": "heart",
+      "file": "species_s4/402_heart.png",
+      "map_file": "species_s4/map/402_heart.png",
+      "idle_frames": [
+        "species_s4/map/402_heart.png"
+      ],
+      "stage": 4,
+      "evo_family": "heart",
+      "art": "SAMPLE_v0",
+      "lock": "ecgo41 PASS LOCK keep live — SAMPLE wired (brain/heart/bones); 唔改 S1–3"
+    },
+    {
+      "id": 403,
+      "term_hint": "bones",
+      "file": "species_s4/403_bones.png",
+      "map_file": "species_s4/map/403_bones.png",
+      "idle_frames": [
+        "species_s4/map/403_bones.png"
+      ],
+      "stage": 4,
+      "evo_family": "bones",
+      "art": "SAMPLE_v0",
+      "lock": "ecgo41 PASS LOCK keep live — SAMPLE wired (brain/heart/bones); 唔改 S1–3"
+    },
+    {
+      "id": 404,
+      "term_hint": "muscles",
+      "file": "species_s4/404_muscles.png",
+      "map_file": "species_s4/map/404_muscles.png",
+      "idle_frames": [
+        "species_s4/map/404_muscles.png"
+      ],
+      "stage": 4,
+      "evo_family": "muscles",
+      "art": "SAMPLE_keep_wave1_v0",
+      "lock": "ecgo42 soft try — Wave1 7family PASS LOCK art wire; product keep still ecgo41 until Co keep 42",
+      "expected_stem": "404_muscles",
+      "expected_file": "species_s4/404_muscles.png",
+      "expected_map_file": "species_s4/map/404_muscles.png",
+      "expected_idle_frames": [
+        "species_s4/map/404_muscles.png"
+      ],
+      "expected_evo_L2": "evolve/L2_404_muscles.png",
+      "expected_evo_L3": "evolve/L3_404_muscles.png",
+      "expected_gallery_sil": "gallery_silhouette/404_muscles.png  # OR nested gallery_silhouette/species_s4/404_muscles.png until sil helper fix",
+      "evo_names": {
+        "L1": "Flexling",
+        "L2": "Tendron",
+        "L3": "Myoforce"
+      },
+      "need_art_slots": 4
+    },
+    {
+      "id": 405,
+      "term_hint": "stomach",
+      "file": "species_s4/405_stomach.png",
+      "map_file": "species_s4/map/405_stomach.png",
+      "idle_frames": [
+        "species_s4/map/405_stomach.png"
+      ],
+      "stage": 4,
+      "evo_family": "stomach",
+      "art": "SAMPLE_keep_wave1_v0",
+      "lock": "ecgo42 soft try — Wave1 7family PASS LOCK art wire; product keep still ecgo41 until Co keep 42",
+      "expected_stem": "405_stomach",
+      "expected_file": "species_s4/405_stomach.png",
+      "expected_map_file": "species_s4/map/405_stomach.png",
+      "expected_idle_frames": [
+        "species_s4/map/405_stomach.png"
+      ],
+      "expected_evo_L2": "evolve/L2_405_stomach.png",
+      "expected_evo_L3": "evolve/L3_405_stomach.png",
+      "expected_gallery_sil": "gallery_silhouette/405_stomach.png  # OR nested gallery_silhouette/species_s4/405_stomach.png until sil helper fix",
+      "evo_names": {
+        "L1": "Tumtum",
+        "L2": "Digestox",
+        "L3": "Gastromax"
+      },
+      "need_art_slots": 4
+    },
+    {
+      "id": 406,
+      "term_hint": "chest",
+      "file": "species_s4/406_chest.png",
+      "map_file": "species_s4/map/406_chest.png",
+      "idle_frames": [
+        "species_s4/map/406_chest.png"
+      ],
+      "stage": 4,
+      "evo_family": "chest",
+      "art": "SAMPLE_keep_wave1_v0",
+      "lock": "ecgo42 soft try — Wave1 7family PASS LOCK art wire; product keep still ecgo41 until Co keep 42",
+      "expected_stem": "406_chest",
+      "expected_file": "species_s4/406_chest.png",
+      "expected_map_file": "species_s4/map/406_chest.png",
+      "expected_idle_frames": [
+        "species_s4/map/406_chest.png"
+      ],
+      "expected_evo_L2": "evolve/L2_406_chest.png",
+      "expected_evo_L3": "evolve/L3_406_chest.png",
+      "expected_gallery_sil": "gallery_silhouette/406_chest.png  # OR nested gallery_silhouette/species_s4/406_chest.png until sil helper fix",
+      "evo_names": {
+        "L1": "Ribcage",
+        "L2": "Thoraxon",
+        "L3": "Sternaguard"
+      },
+      "need_art_slots": 4
+    },
+    {
+      "id": 407,
+      "term_hint": "cough",
+      "file": "species_s4/407_cough.png",
+      "map_file": "species_s4/map/407_cough.png",
+      "idle_frames": [
+        "species_s4/map/407_cough.png"
+      ],
+      "stage": 4,
+      "evo_family": "cough",
+      "art": "SAMPLE_keep_wave1_v0",
+      "lock": "ecgo42 soft try — Wave1 7family PASS LOCK art wire; product keep still ecgo41 until Co keep 42",
+      "expected_stem": "407_cough",
+      "expected_file": "species_s4/407_cough.png",
+      "expected_map_file": "species_s4/map/407_cough.png",
+      "expected_idle_frames": [
+        "species_s4/map/407_cough.png"
+      ],
+      "expected_evo_L2": "evolve/L2_407_cough.png",
+      "expected_evo_L3": "evolve/L3_407_cough.png",
+      "expected_gallery_sil": "gallery_silhouette/407_cough.png  # OR nested gallery_silhouette/species_s4/407_cough.png until sil helper fix",
+      "evo_names": {
+        "L1": "Coughpuff",
+        "L2": "Hackmist",
+        "L3": "Bronchiblast"
+      },
+      "need_art_slots": 4
+    },
+    {
+      "id": 408,
+      "term_hint": "yawn",
+      "file": "species_s4/408_yawn.png",
+      "map_file": "species_s4/map/408_yawn.png",
+      "idle_frames": [
+        "species_s4/map/408_yawn.png"
+      ],
+      "stage": 4,
+      "evo_family": "yawn",
+      "art": "SAMPLE_keep_wave1_v0",
+      "lock": "ecgo42 soft try — Wave1 7family PASS LOCK art wire; product keep still ecgo41 until Co keep 42",
+      "expected_stem": "408_yawn",
+      "expected_file": "species_s4/408_yawn.png",
+      "expected_map_file": "species_s4/map/408_yawn.png",
+      "expected_idle_frames": [
+        "species_s4/map/408_yawn.png"
+      ],
+      "expected_evo_L2": "evolve/L2_408_yawn.png",
+      "expected_evo_L3": "evolve/L3_408_yawn.png",
+      "expected_gallery_sil": "gallery_silhouette/408_yawn.png  # OR nested gallery_silhouette/species_s4/408_yawn.png until sil helper fix",
+      "evo_names": {
+        "L1": "Yawnlet",
+        "L2": "Drowseal",
+        "L3": "Somnolord"
+      },
+      "need_art_slots": 4
+    },
+    {
+      "id": 409,
+      "term_hint": "sweat",
+      "file": "species_s4/409_sweat.png",
+      "map_file": "species_s4/map/409_sweat.png",
+      "idle_frames": [
+        "species_s4/map/409_sweat.png"
+      ],
+      "stage": 4,
+      "evo_family": "sweat",
+      "art": "SAMPLE_keep_wave1_v0",
+      "lock": "ecgo42 soft try — Wave1 7family PASS LOCK art wire; product keep still ecgo41 until Co keep 42",
+      "expected_stem": "409_sweat",
+      "expected_file": "species_s4/409_sweat.png",
+      "expected_map_file": "species_s4/map/409_sweat.png",
+      "expected_idle_frames": [
+        "species_s4/map/409_sweat.png"
+      ],
+      "expected_evo_L2": "evolve/L2_409_sweat.png",
+      "expected_evo_L3": "evolve/L3_409_sweat.png",
+      "expected_gallery_sil": "gallery_silhouette/409_sweat.png  # OR nested gallery_silhouette/species_s4/409_sweat.png until sil helper fix",
+      "evo_names": {
+        "L1": "Sweatdroplet",
+        "L2": "Perspirun",
+        "L3": "Hydropulse"
+      },
+      "need_art_slots": 4
+    },
+    {
+      "id": 410,
+      "term_hint": "sneeze",
+      "file": "species_s4/410_sneeze.png",
+      "map_file": "species_s4/map/410_sneeze.png",
+      "idle_frames": [
+        "species_s4/map/410_sneeze.png"
+      ],
+      "stage": 4,
+      "evo_family": "sneeze",
+      "art": "SAMPLE_keep_wave1_v0",
+      "lock": "ecgo42 soft try — Wave1 7family PASS LOCK art wire; product keep still ecgo41 until Co keep 42",
+      "expected_stem": "410_sneeze",
+      "expected_file": "species_s4/410_sneeze.png",
+      "expected_map_file": "species_s4/map/410_sneeze.png",
+      "expected_idle_frames": [
+        "species_s4/map/410_sneeze.png"
+      ],
+      "expected_evo_L2": "evolve/L2_410_sneeze.png",
+      "expected_evo_L3": "evolve/L3_410_sneeze.png",
+      "expected_gallery_sil": "gallery_silhouette/410_sneeze.png  # OR nested gallery_silhouette/species_s4/410_sneeze.png until sil helper fix",
+      "evo_names": {
+        "L1": "Sneezling",
+        "L2": "Achoomist",
+        "L3": "Blastorrhea"
+      },
+      "need_art_slots": 4
+    }
+  ],
+  "wired_families": [
+    "brain",
+    "heart",
+    "bones",
+    "muscles",
+    "stomach",
+    "chest",
+    "cough",
+    "yawn",
+    "sweat",
+    "sneeze"
+  ],
+  "hold_families": [],
+  "clar_unlock": {
+    "date": "2026-11-01",
+    "note": "PASS LOCK keep Wave1 7family SAMPLE v0 wired → ecgo42 soft try; product keep ecgo41",
+    "wire": "public_demo",
+    "status": "WIRED soft try ecgo42 — 唔 promote keep"
+  },
+  "need_art_count": {
+    "families": 0,
+    "png_per_family": 4,
+    "png_total_min": 0,
+    "gallery_sil_optional": 0
+  },
+  "product_keep": "ecgo41",
+  "soft_try": "ecgo42"
+}

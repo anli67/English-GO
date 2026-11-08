@@ -1,0 +1,265 @@
+{
+  "project": "english_catch_go",
+  "pack": "art_ecgo_stage5_hospital_critters_sample_v0_2026-11-01",
+  "stage": 5,
+  "species": [
+    {
+      "id": 501,
+      "term_hint": "Although",
+      "file": "species_s5/501_although.png",
+      "map_file": "species_s5/map/501_although.png",
+      "idle_frames": [
+        "species_s5/map/501_although.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 502,
+      "term_hint": "aware",
+      "file": "species_s5/502_aware.png",
+      "map_file": "species_s5/map/502_aware.png",
+      "idle_frames": [
+        "species_s5/map/502_aware.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41; nit aware 紅十字 HOLD 後修"
+    },
+    {
+      "id": 503,
+      "term_hint": "constantly working",
+      "file": "species_s5/503_constantly_working.png",
+      "map_file": "species_s5/map/503_constantly_working.png",
+      "idle_frames": [
+        "species_s5/map/503_constantly_working.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 504,
+      "term_hint": "sleeping",
+      "file": "species_s5/504_sleeping.png",
+      "map_file": "species_s5/map/504_sleeping.png",
+      "idle_frames": [
+        "species_s5/map/504_sleeping.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 505,
+      "term_hint": "awake",
+      "file": "species_s5/505_awake.png",
+      "map_file": "species_s5/map/505_awake.png",
+      "idle_frames": [
+        "species_s5/map/505_awake.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 506,
+      "term_hint": "sorting",
+      "file": "species_s5/506_sorting.png",
+      "map_file": "species_s5/map/506_sorting.png",
+      "idle_frames": [
+        "species_s5/map/506_sorting.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 507,
+      "term_hint": "storing information",
+      "file": "species_s5/507_storing_information.png",
+      "map_file": "species_s5/map/507_storing_information.png",
+      "idle_frames": [
+        "species_s5/map/507_storing_information.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 508,
+      "term_hint": "enough",
+      "file": "species_s5/508_enough.png",
+      "map_file": "species_s5/map/508_enough.png",
+      "idle_frames": [
+        "species_s5/map/508_enough.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 509,
+      "term_hint": "properly",
+      "file": "species_s5/509_properly.png",
+      "map_file": "species_s5/map/509_properly.png",
+      "idle_frames": [
+        "species_s5/map/509_properly.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 510,
+      "term_hint": "pumping",
+      "file": "species_s5/510_pumping.png",
+      "map_file": "species_s5/map/510_pumping.png",
+      "idle_frames": [
+        "species_s5/map/510_pumping.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 511,
+      "term_hint": "oxygen",
+      "file": "species_s5/511_oxygen.png",
+      "map_file": "species_s5/map/511_oxygen.png",
+      "idle_frames": [
+        "species_s5/map/511_oxygen.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 512,
+      "term_hint": "nutrients",
+      "file": "species_s5/512_nutrients.png",
+      "map_file": "species_s5/map/512_nutrients.png",
+      "idle_frames": [
+        "species_s5/map/512_nutrients.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 513,
+      "term_hint": "organs",
+      "file": "species_s5/513_organs.png",
+      "map_file": "species_s5/map/513_organs.png",
+      "idle_frames": [
+        "species_s5/map/513_organs.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 514,
+      "term_hint": "nose itches",
+      "file": "species_s5/514_nose_itches.png",
+      "map_file": "species_s5/map/514_nose_itches.png",
+      "idle_frames": [
+        "species_s5/map/514_nose_itches.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 515,
+      "term_hint": "a blast of air",
+      "file": "species_s5/515_a_blast_of_air.png",
+      "map_file": "species_s5/map/515_a_blast_of_air.png",
+      "idle_frames": [
+        "species_s5/map/515_a_blast_of_air.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 516,
+      "term_hint": "sneeze",
+      "file": "species_s5/516_sneeze.png",
+      "map_file": "species_s5/map/516_sneeze.png",
+      "idle_frames": [
+        "species_s5/map/516_sneeze.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 517,
+      "term_hint": "annoying",
+      "file": "species_s5/517_annoying.png",
+      "map_file": "species_s5/map/517_annoying.png",
+      "idle_frames": [
+        "species_s5/map/517_annoying.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 518,
+      "term_hint": "throat",
+      "file": "species_s5/518_throat.png",
+      "map_file": "species_s5/map/518_throat.png",
+      "idle_frames": [
+        "species_s5/map/518_throat.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 519,
+      "term_hint": "lungs",
+      "file": "species_s5/519_lungs.png",
+      "map_file": "species_s5/map/519_lungs.png",
+      "idle_frames": [
+        "species_s5/map/519_lungs.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 520,
+      "term_hint": "healthy and happy",
+      "file": "species_s5/520_healthy_and_happy.png",
+      "map_file": "species_s5/map/520_healthy_and_happy.png",
+      "idle_frames": [
+        "species_s5/map/520_healthy_and_happy.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    },
+    {
+      "id": 521,
+      "term_hint": "get lots of exercise",
+      "file": "species_s5/521_get_lots_of_exercise.png",
+      "map_file": "species_s5/map/521_get_lots_of_exercise.png",
+      "idle_frames": [
+        "species_s5/map/521_get_lots_of_exercise.png"
+      ],
+      "stage": 5,
+      "art": "SAMPLE_keep_wave2_v0",
+      "lock": "ecgo42 soft try — Wave2 Stage5 hospital PASS LOCK art wire; product keep still ecgo41"
+    }
+  ],
+  "product_keep": "ecgo41",
+  "soft_try": "ecgo42",
+  "wire": "public_demo",
+  "nit_hold": [
+    "502_aware 紅十字 — 後修 HOLD；唔阻 wire"
+  ]
+}

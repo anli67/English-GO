@@ -1,0 +1,510 @@
+{
+  "version": "english_catch_stage3_passage_blank_v0",
+  "date": "2026-10-31",
+  "status": "DRAFT — Owner 試做；等 Co／Owner keep",
+  "stage": 3,
+  "map": "passage_fill",
+  "theme": "Dictation Part B fill blanks → spawn sprite per correct blank",
+  "source": "School 2026-2027 GENERAL ENGLISH DICTATION REVISION (1) Part B",
+  "passage_full": "People can take a shower at any time if they are hot. Here is an invention that we cannot live without on a summer day. Can you guess what it is?\n\nOn the coldest winter evening in 1905, Frank tried to invent a new sweet and colourful drink. That night, he did some experiments outside his house. He left the glass of the fruit-flavoured mixture with a stirring stick in it. The next morning, Frank found the mixture frozen to the stick because it was too cold. He tried it and found it was delicious. He was too poor to buy nice things for his wife, so he decided to patent his 'frozen ice on a stick'.\n\nFrank began producing his ice lollies in different flavours. By then he was rich enough to invent a machine to manufacture ice lollies. Later, his son George renamed the ice lolly 'Popsicle' in honour of his dad.",
+  "blank_types": [
+    "verb",
+    "preposition",
+    "punctuation"
+  ],
+  "gameplay": {
+    "show": "full Part B with blanks",
+    "on_correct_blank": "spawn +1 sprite on screen (reuse S1/S2 cutouts)",
+    "record": "ecgo_v1_* keep"
+  },
+  "count": 31,
+  "blanks": [
+    {
+      "id": 201,
+      "type": "verb",
+      "answer": "are",
+      "accept": [
+        "are"
+      ],
+      "hint": "be",
+      "context": "if they ___ hot"
+    },
+    {
+      "id": 202,
+      "type": "verb",
+      "answer": "is",
+      "accept": [
+        "is"
+      ],
+      "hint": "be",
+      "context": "Here ___ an invention"
+    },
+    {
+      "id": 203,
+      "type": "preposition",
+      "answer": "on",
+      "accept": [
+        "on"
+      ],
+      "context": "___ a summer day"
+    },
+    {
+      "id": 204,
+      "type": "verb",
+      "answer": "is",
+      "accept": [
+        "is"
+      ],
+      "hint": "be",
+      "context": "what it ___"
+    },
+    {
+      "id": 205,
+      "type": "punctuation",
+      "answer": "?",
+      "accept": [
+        "?"
+      ],
+      "context": "what it is___"
+    },
+    {
+      "id": 206,
+      "type": "preposition",
+      "answer": "in",
+      "accept": [
+        "in"
+      ],
+      "context": "evening ___ 1905"
+    },
+    {
+      "id": 207,
+      "type": "verb",
+      "answer": "tried",
+      "accept": [
+        "tried"
+      ],
+      "context": "Frank ___ to invent"
+    },
+    {
+      "id": 208,
+      "type": "verb",
+      "answer": "did",
+      "accept": [
+        "did"
+      ],
+      "context": "he ___ some experiments"
+    },
+    {
+      "id": 209,
+      "type": "preposition",
+      "answer": "outside",
+      "accept": [
+        "outside"
+      ],
+      "context": "___ his house"
+    },
+    {
+      "id": 210,
+      "type": "preposition",
+      "answer": "of",
+      "accept": [
+        "of"
+      ],
+      "context": "glass ___ the fruit-flavoured mixture"
+    },
+    {
+      "id": 211,
+      "type": "preposition",
+      "answer": "with",
+      "accept": [
+        "with"
+      ],
+      "context": "mixture ___ a stirring stick"
+    },
+    {
+      "id": 212,
+      "type": "preposition",
+      "answer": "in",
+      "accept": [
+        "in"
+      ],
+      "context": "stick ___ it"
+    },
+    {
+      "id": 213,
+      "type": "verb",
+      "answer": "found",
+      "accept": [
+        "found"
+      ],
+      "context": "Frank ___ the mixture"
+    },
+    {
+      "id": 214,
+      "type": "preposition",
+      "answer": "to",
+      "accept": [
+        "to"
+      ],
+      "context": "frozen ___ the stick"
+    },
+    {
+      "id": 215,
+      "type": "verb",
+      "answer": "was",
+      "accept": [
+        "was"
+      ],
+      "hint": "be",
+      "context": "it ___ too cold"
+    },
+    {
+      "id": 216,
+      "type": "verb",
+      "answer": "tried",
+      "accept": [
+        "tried"
+      ],
+      "context": "He ___ it"
+    },
+    {
+      "id": 217,
+      "type": "verb",
+      "answer": "found",
+      "accept": [
+        "found"
+      ],
+      "context": "and ___ it was delicious"
+    },
+    {
+      "id": 218,
+      "type": "verb",
+      "answer": "was",
+      "accept": [
+        "was"
+      ],
+      "hint": "be",
+      "context": "it ___ delicious"
+    },
+    {
+      "id": 219,
+      "type": "verb",
+      "answer": "was",
+      "accept": [
+        "was"
+      ],
+      "hint": "be",
+      "context": "He ___ too poor"
+    },
+    {
+      "id": 220,
+      "type": "preposition",
+      "answer": "for",
+      "accept": [
+        "for"
+      ],
+      "context": "things ___ his wife"
+    },
+    {
+      "id": 221,
+      "type": "verb",
+      "answer": "decided",
+      "accept": [
+        "decided"
+      ],
+      "context": "he ___ to patent"
+    },
+    {
+      "id": 222,
+      "type": "punctuation",
+      "answer": "'",
+      "accept": [
+        "'",
+        "'"
+      ],
+      "context": "his ___frozen ice..."
+    },
+    {
+      "id": 223,
+      "type": "preposition",
+      "answer": "on",
+      "accept": [
+        "on"
+      ],
+      "context": "ice ___ a stick"
+    },
+    {
+      "id": 224,
+      "type": "verb",
+      "answer": "began",
+      "accept": [
+        "began"
+      ],
+      "context": "Frank ___ producing"
+    },
+    {
+      "id": 225,
+      "type": "preposition",
+      "answer": "in",
+      "accept": [
+        "in"
+      ],
+      "context": "lollies ___ different flavours"
+    },
+    {
+      "id": 226,
+      "type": "preposition",
+      "answer": "By",
+      "accept": [
+        "By",
+        "by"
+      ],
+      "context": "___ then he was rich"
+    },
+    {
+      "id": 227,
+      "type": "verb",
+      "answer": "was",
+      "accept": [
+        "was"
+      ],
+      "hint": "be",
+      "context": "he ___ rich enough"
+    },
+    {
+      "id": 228,
+      "type": "verb",
+      "answer": "renamed",
+      "accept": [
+        "renamed"
+      ],
+      "context": "George ___ the ice lolly"
+    },
+    {
+      "id": 229,
+      "type": "punctuation",
+      "answer": "'",
+      "accept": [
+        "'",
+        "'"
+      ],
+      "context": "___Popsicle___"
+    },
+    {
+      "id": 230,
+      "type": "preposition",
+      "answer": "in",
+      "accept": [
+        "in"
+      ],
+      "context": "___ honour of his dad"
+    },
+    {
+      "id": 231,
+      "type": "punctuation",
+      "answer": ".",
+      "accept": [
+        "."
+      ],
+      "context": "end of passage"
+    }
+  ],
+  "owners": {
+    "小學_洋溫書": "KNIFE＋本 JSON",
+    "程式": "Stage3 UI＋wire 試玩",
+    "美術": "bank keep；唔開新 SAMPLE 除非 BRIEF"
+  },
+  "clar": [
+    "第二段＝Part B 全文 或 只中段？",
+    "verb＝只 be 動詞 或 所有動詞？"
+  ],
+  "passage_marked": "People can take a shower at any time if they {{201}} hot. Here {{202}} an invention that we cannot live without {{203}} a summer day. Can you guess what it {{204}}{{205}}\n\nOn the coldest winter evening {{206}} 1905, Frank {{207}} to invent a new sweet and colourful drink. That night, he {{208}} some experiments {{209}} his house. He left the glass {{210}} the fruit-flavoured mixture {{211}} a stirring stick {{212}} it. The next morning, Frank {{213}} the mixture frozen {{214}} the stick because it {{215}} too cold. He {{216}} it and {{217}} it {{218}} delicious. He {{219}} too poor to buy nice things {{220}} his wife, so he {{221}} to patent his {{222}}frozen ice {{223}} a stick'.\n\nFrank {{224}} producing his ice lollies {{225}} different flavours. {{226}} then he {{227}} rich enough to invent a machine to manufacture ice lollies. Later, his son George {{228}} the ice lolly {{229}}Popsicle' {{230}} honour of his dad{{231}}",
+  "blank_spans": [
+    {
+      "id": 201,
+      "start": 45,
+      "end": 48,
+      "answer": "are"
+    },
+    {
+      "id": 202,
+      "start": 59,
+      "end": 61,
+      "answer": "is"
+    },
+    {
+      "id": 203,
+      "start": 103,
+      "end": 105,
+      "answer": "on"
+    },
+    {
+      "id": 204,
+      "start": 142,
+      "end": 144,
+      "answer": "is"
+    },
+    {
+      "id": 205,
+      "start": 144,
+      "end": 145,
+      "answer": "?"
+    },
+    {
+      "id": 206,
+      "start": 177,
+      "end": 179,
+      "answer": "in"
+    },
+    {
+      "id": 207,
+      "start": 192,
+      "end": 197,
+      "answer": "tried"
+    },
+    {
+      "id": 208,
+      "start": 256,
+      "end": 259,
+      "answer": "did"
+    },
+    {
+      "id": 209,
+      "start": 277,
+      "end": 284,
+      "answer": "outside"
+    },
+    {
+      "id": 210,
+      "start": 314,
+      "end": 316,
+      "answer": "of"
+    },
+    {
+      "id": 211,
+      "start": 345,
+      "end": 349,
+      "answer": "with"
+    },
+    {
+      "id": 212,
+      "start": 367,
+      "end": 369,
+      "answer": "in"
+    },
+    {
+      "id": 213,
+      "start": 398,
+      "end": 403,
+      "answer": "found"
+    },
+    {
+      "id": 214,
+      "start": 423,
+      "end": 425,
+      "answer": "to"
+    },
+    {
+      "id": 215,
+      "start": 447,
+      "end": 450,
+      "answer": "was"
+    },
+    {
+      "id": 216,
+      "start": 464,
+      "end": 469,
+      "answer": "tried"
+    },
+    {
+      "id": 217,
+      "start": 477,
+      "end": 482,
+      "answer": "found"
+    },
+    {
+      "id": 218,
+      "start": 486,
+      "end": 489,
+      "answer": "was"
+    },
+    {
+      "id": 219,
+      "start": 504,
+      "end": 507,
+      "answer": "was"
+    },
+    {
+      "id": 220,
+      "start": 536,
+      "end": 539,
+      "answer": "for"
+    },
+    {
+      "id": 221,
+      "start": 556,
+      "end": 563,
+      "answer": "decided"
+    },
+    {
+      "id": 222,
+      "start": 578,
+      "end": 579,
+      "answer": "'"
+    },
+    {
+      "id": 223,
+      "start": 590,
+      "end": 592,
+      "answer": "on"
+    },
+    {
+      "id": 224,
+      "start": 610,
+      "end": 615,
+      "answer": "began"
+    },
+    {
+      "id": 225,
+      "start": 642,
+      "end": 644,
+      "answer": "in"
+    },
+    {
+      "id": 226,
+      "start": 665,
+      "end": 667,
+      "answer": "By"
+    },
+    {
+      "id": 227,
+      "start": 676,
+      "end": 679,
+      "answer": "was"
+    },
+    {
+      "id": 228,
+      "start": 762,
+      "end": 769,
+      "answer": "renamed"
+    },
+    {
+      "id": 229,
+      "start": 784,
+      "end": 785,
+      "answer": "'"
+    },
+    {
+      "id": 230,
+      "start": 795,
+      "end": 797,
+      "answer": "in"
+    },
+    {
+      "id": 231,
+      "start": 815,
+      "end": 816,
+      "answer": "."
+    }
+  ]
+}

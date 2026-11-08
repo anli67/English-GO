@@ -1,0 +1,312 @@
+[
+  {
+    "src": "id01_lift_L2.png",
+    "dest": "L2_01_lift.png",
+    "bytes": 882448
+  },
+  {
+    "src": "id01_lift_L3.png",
+    "dest": "L3_01_lift.png",
+    "bytes": 1229076
+  },
+  {
+    "src": "id02_air_conditioner_L2.png",
+    "dest": "L2_02_air_conditioner.png",
+    "bytes": 1195409
+  },
+  {
+    "src": "id02_air_conditioner_L3.png",
+    "dest": "L3_02_air_conditioner.png",
+    "bytes": 1832160
+  },
+  {
+    "src": "id03_magnet_L2.png",
+    "dest": "L2_03_magnet.png",
+    "bytes": 808325
+  },
+  {
+    "src": "id03_magnet_L3.png",
+    "dest": "L3_03_magnet.png",
+    "bytes": 1194189
+  },
+  {
+    "src": "id04_light_bulb_L2.png",
+    "dest": "L2_04_light_bulb.png",
+    "bytes": 800707
+  },
+  {
+    "src": "id04_light_bulb_L3.png",
+    "dest": "L3_04_light_bulb.png",
+    "bytes": 1032510
+  },
+  {
+    "src": "id05_photocopier_L2.png",
+    "dest": "L2_05_photocopier.png",
+    "bytes": 954672
+  },
+  {
+    "src": "id05_photocopier_L3.png",
+    "dest": "L3_05_photocopier.png",
+    "bytes": 1099588
+  },
+  {
+    "src": "id06_steam_iron_L2.png",
+    "dest": "L2_06_steam_iron.png",
+    "bytes": 1210384
+  },
+  {
+    "src": "id06_steam_iron_L3.png",
+    "dest": "L3_06_steam_iron.png",
+    "bytes": 1423824
+  },
+  {
+    "src": "id07_vacuum_cleaner_L2.png",
+    "dest": "L2_07_vacuum_cleaner.png",
+    "bytes": 962930
+  },
+  {
+    "src": "id07_vacuum_cleaner_L3.png",
+    "dest": "L3_07_vacuum_cleaner.png",
+    "bytes": 1263420
+  },
+  {
+    "src": "id08_thermometer_L2.png",
+    "dest": "L2_08_thermometer.png",
+    "bytes": 1029900
+  },
+  {
+    "src": "id08_thermometer_L3.png",
+    "dest": "L3_08_thermometer.png",
+    "bytes": 1776540
+  },
+  {
+    "src": "id09_first_aid_box_L2.png",
+    "dest": "L2_09_first_aid_box.png",
+    "bytes": 1242335
+  },
+  {
+    "src": "id09_first_aid_box_L3.png",
+    "dest": "L3_09_first_aid_box.png",
+    "bytes": 1497410
+  },
+  {
+    "src": "id101_shower_L2.png",
+    "dest": "L2_101_shower.png",
+    "bytes": 811105
+  },
+  {
+    "src": "id101_shower_L3.png",
+    "dest": "L3_101_shower.png",
+    "bytes": 1462011
+  },
+  {
+    "src": "id102_invention_L2.png",
+    "dest": "L2_102_invention.png",
+    "bytes": 1235086
+  },
+  {
+    "src": "id102_invention_L3.png",
+    "dest": "L3_102_invention.png",
+    "bytes": 1748845
+  },
+  {
+    "src": "id103_summer_day_L2.png",
+    "dest": "L2_103_summer_day.png",
+    "bytes": 1206467
+  },
+  {
+    "src": "id103_summer_day_L3.png",
+    "dest": "L3_103_summer_day.png",
+    "bytes": 1440177
+  },
+  {
+    "src": "id104_guess_L2.png",
+    "dest": "L2_104_guess.png",
+    "bytes": 916862
+  },
+  {
+    "src": "id104_guess_L3.png",
+    "dest": "L3_104_guess.png",
+    "bytes": 1411686
+  },
+  {
+    "src": "id105_coldest_winter_evening_L2.png",
+    "dest": "L2_105_coldest_winter_evening.png",
+    "bytes": 1604239
+  },
+  {
+    "src": "id105_coldest_winter_evening_L3.png",
+    "dest": "L3_105_coldest_winter_evening.png",
+    "bytes": 1706626
+  },
+  {
+    "src": "id106_sweet_and_colourful_drink_L2.png",
+    "dest": "L2_106_sweet_colourful_drink.png",
+    "bytes": 1103808
+  },
+  {
+    "src": "id106_sweet_and_colourful_drink_L3.png",
+    "dest": "L3_106_sweet_colourful_drink.png",
+    "bytes": 1615564
+  },
+  {
+    "src": "id107_experiment_L2.png",
+    "dest": "L2_107_experiment.png",
+    "bytes": 1140357
+  },
+  {
+    "src": "id107_experiment_L3.png",
+    "dest": "L3_107_experiment.png",
+    "bytes": 1475859
+  },
+  {
+    "src": "id108_experiments_L2.png",
+    "dest": "L2_108_experiments.png",
+    "bytes": 1126109
+  },
+  {
+    "src": "id108_experiments_L3.png",
+    "dest": "L3_108_experiments.png",
+    "bytes": 1661007
+  },
+  {
+    "src": "id109_fruit_flavoured_mixture_L2.png",
+    "dest": "L2_109_fruit_flavoured_mixture.png",
+    "bytes": 1350718
+  },
+  {
+    "src": "id109_fruit_flavoured_mixture_L3.png",
+    "dest": "L3_109_fruit_flavoured_mixture.png",
+    "bytes": 1630562
+  },
+  {
+    "src": "id110_stirring_stick_L2.png",
+    "dest": "L2_110_stirring_stick.png",
+    "bytes": 1020390
+  },
+  {
+    "src": "id110_stirring_stick_L3.png",
+    "dest": "L3_110_stirring_stick.png",
+    "bytes": 1455666
+  },
+  {
+    "src": "id111_frozen_to_the_stick_L2.png",
+    "dest": "L2_111_frozen_to_the_stick.png",
+    "bytes": 1267619
+  },
+  {
+    "src": "id111_frozen_to_the_stick_L3.png",
+    "dest": "L3_111_frozen_to_the_stick.png",
+    "bytes": 1715405
+  },
+  {
+    "src": "id112_delicious_L2.png",
+    "dest": "L2_112_delicious.png",
+    "bytes": 1329222
+  },
+  {
+    "src": "id112_delicious_L3.png",
+    "dest": "L3_112_delicious.png",
+    "bytes": 1469316
+  },
+  {
+    "src": "id113_wife_L2.png",
+    "dest": "L2_113_wife.png",
+    "bytes": 1251630
+  },
+  {
+    "src": "id113_wife_L3.png",
+    "dest": "L3_113_wife.png",
+    "bytes": 1591131
+  },
+  {
+    "src": "id114_patent_L2.png",
+    "dest": "L2_114_patent.png",
+    "bytes": 1189611
+  },
+  {
+    "src": "id114_patent_L3.png",
+    "dest": "L3_114_patent.png",
+    "bytes": 1847226
+  },
+  {
+    "src": "id115_producing_L2.png",
+    "dest": "L2_115_producing.png",
+    "bytes": 1157026
+  },
+  {
+    "src": "id115_producing_L3.png",
+    "dest": "L3_115_producing.png",
+    "bytes": 1713141
+  },
+  {
+    "src": "id116_ice_lollies_L2.png",
+    "dest": "L2_116_ice_lollies.png",
+    "bytes": 1399352
+  },
+  {
+    "src": "id116_ice_lollies_L3.png",
+    "dest": "L3_116_ice_lollies.png",
+    "bytes": 1810027
+  },
+  {
+    "src": "id117_flavours_L2.png",
+    "dest": "L2_117_flavours.png",
+    "bytes": 1084847
+  },
+  {
+    "src": "id117_flavours_L3.png",
+    "dest": "L3_117_flavours.png",
+    "bytes": 1590023
+  },
+  {
+    "src": "id118_rich_enough_L2.png",
+    "dest": "L2_118_rich_enough.png",
+    "bytes": 1412171
+  },
+  {
+    "src": "id118_rich_enough_L3.png",
+    "dest": "L3_118_rich_enough.png",
+    "bytes": 1443524
+  },
+  {
+    "src": "id119_machine_to_manufacture_L2.png",
+    "dest": "L2_119_machine_to_manufacture.png",
+    "bytes": 1126350
+  },
+  {
+    "src": "id119_machine_to_manufacture_L3.png",
+    "dest": "L3_119_machine_to_manufacture.png",
+    "bytes": 1509118
+  },
+  {
+    "src": "id120_ice_lolly_popsicle_L2.png",
+    "dest": "L2_120_popsicle_king.png",
+    "bytes": 1265687
+  },
+  {
+    "src": "id120_ice_lolly_popsicle_L3.png",
+    "dest": "L3_120_popsicle_king.png",
+    "bytes": 1554639
+  },
+  {
+    "src": "id121_in_honour_L2.png",
+    "dest": "L2_121_in_honour.png",
+    "bytes": 1114628
+  },
+  {
+    "src": "id121_in_honour_L3.png",
+    "dest": "L3_121_in_honour.png",
+    "bytes": 1865688
+  },
+  {
+    "src": "microscope_L2.png",
+    "dest": "L2_10_microscope.png",
+    "bytes": 1217555
+  },
+  {
+    "src": "microscope_L3.png",
+    "dest": "L3_10_microscope.png",
+    "bytes": 1431030
+  }
+]

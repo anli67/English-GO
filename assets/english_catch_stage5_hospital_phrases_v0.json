@@ -1,0 +1,295 @@
+{
+  "version": "english_catch_stage5_hospital_phrases_v0",
+  "date": "2026-11-01",
+  "status": "DRAFT — Owner ALL APPROVE scope；等 Co／Owner PASS LOCK；唔 wire／唔 bump keep",
+  "stage": 5,
+  "map": "醫院 hospital",
+  "theme": "Dictation (2) Part B phrases — hospital / body-cute 原創；無官方商標；oyxgen→oxygen 已修正",
+  "source": "Owner phrase list from DICTATION (2) Part B + photo photo",
+  "count": 21,
+  "catch_rate": 0.125,
+  "stage1_3_keep": "DO NOT MODIFY Stage1–3 JSON；live keep ecgo35",
+  "gameplay": {
+    "like": "Stage 2 beach phrase catch",
+    "loop": [
+      "醫院地圖遇敵",
+      "顯示詞／短語 → keyboard 打正確（多詞保留空格；大小寫寬鬆）",
+      "打啱 → 掟球捕捉"
+    ]
+  },
+  "words": [
+    {
+      "id": 501,
+      "stage": 5,
+      "term": "Although",
+      "display": "Although",
+      "article": "",
+      "meaning": "雖然；儘管。",
+      "creature_idea": "醫院門牌精靈：大寫 A 門＋雖然旗",
+      "catch_rate": 0.125,
+      "accept": [
+        "Although"
+      ]
+    },
+    {
+      "id": 502,
+      "stage": 5,
+      "term": "aware",
+      "display": "aware",
+      "article": "",
+      "meaning": "察覺；意識到。",
+      "creature_idea": "察覺眼精靈：單眼護士帽＋雷達耳",
+      "catch_rate": 0.125,
+      "accept": [
+        "aware"
+      ]
+    },
+    {
+      "id": 503,
+      "stage": 5,
+      "term": "constantly working",
+      "display": "constantly working",
+      "article": "",
+      "meaning": "不斷地工作。",
+      "creature_idea": "不停工小醫助：齒輪聽診器＋跑步輪",
+      "catch_rate": 0.125,
+      "accept": [
+        "constantly working"
+      ]
+    },
+    {
+      "id": 504,
+      "stage": 5,
+      "term": "sleeping",
+      "display": "sleeping",
+      "article": "",
+      "meaning": "正在睡覺。",
+      "creature_idea": "病房睡眠精靈：病床雲＋ZZZ 角",
+      "catch_rate": 0.125,
+      "accept": [
+        "sleeping"
+      ]
+    },
+    {
+      "id": 505,
+      "stage": 5,
+      "term": "awake",
+      "display": "awake",
+      "article": "",
+      "meaning": "醒着的。",
+      "creature_idea": "醒醒燈精靈：夜燈眼＋睜大眼",
+      "catch_rate": 0.125,
+      "accept": [
+        "awake"
+      ]
+    },
+    {
+      "id": 506,
+      "stage": 5,
+      "term": "sorting",
+      "display": "sorting",
+      "article": "",
+      "meaning": "整理；分類中。",
+      "creature_idea": "分類檔案蟲：文件櫃身＋標籤翅",
+      "catch_rate": 0.125,
+      "accept": [
+        "sorting"
+      ]
+    },
+    {
+      "id": 507,
+      "stage": 5,
+      "term": "storing information",
+      "display": "storing information",
+      "article": "",
+      "meaning": "儲存資訊。",
+      "creature_idea": "資訊庫精靈：硬碟腦＋資料絲",
+      "catch_rate": 0.125,
+      "accept": [
+        "storing information"
+      ]
+    },
+    {
+      "id": 508,
+      "stage": 5,
+      "term": "enough",
+      "display": "enough",
+      "article": "",
+      "meaning": "足夠。",
+      "creature_idea": "剛好量杯精：刻度杯身＋滿水位",
+      "catch_rate": 0.125,
+      "accept": [
+        "enough"
+      ]
+    },
+    {
+      "id": 509,
+      "stage": 5,
+      "term": "properly",
+      "display": "properly",
+      "article": "",
+      "meaning": "正確地；適當地。",
+      "creature_idea": "正確勾精靈：綠勾盾＋說明書披風",
+      "catch_rate": 0.125,
+      "accept": [
+        "properly"
+      ]
+    },
+    {
+      "id": 510,
+      "stage": 5,
+      "term": "pumping",
+      "display": "pumping",
+      "article": "",
+      "meaning": "泵送；抽送中。",
+      "creature_idea": "泵血機精靈：活塞心＋軟管臂",
+      "catch_rate": 0.125,
+      "accept": [
+        "pumping"
+      ]
+    },
+    {
+      "id": 511,
+      "stage": 5,
+      "term": "oxygen",
+      "display": "oxygen",
+      "article": "",
+      "meaning": "氧氣。",
+      "creature_idea": "氧氣泡精靈：O₂ 泡泡身＋呼吸罩",
+      "catch_rate": 0.125,
+      "accept": [
+        "oxygen"
+      ]
+    },
+    {
+      "id": 512,
+      "stage": 5,
+      "term": "nutrients",
+      "display": "nutrients",
+      "article": "",
+      "meaning": "營養素（複數）。",
+      "creature_idea": "營養粒精靈：維他命彩珠串",
+      "catch_rate": 0.125,
+      "accept": [
+        "nutrients"
+      ]
+    },
+    {
+      "id": 513,
+      "stage": 5,
+      "term": "organs",
+      "display": "organs",
+      "article": "",
+      "meaning": "器官（複數）。",
+      "creature_idea": "器官拼圖精靈：拼塊身體＋標籤釘",
+      "catch_rate": 0.125,
+      "accept": [
+        "organs"
+      ]
+    },
+    {
+      "id": 514,
+      "stage": 5,
+      "term": "nose itches",
+      "display": "nose itches",
+      "article": "",
+      "meaning": "鼻子發癢。",
+      "creature_idea": "癢鼻精靈：紅鼻＋抓痕星",
+      "catch_rate": 0.125,
+      "accept": [
+        "nose itches"
+      ]
+    },
+    {
+      "id": 515,
+      "stage": 5,
+      "term": "a blast of air",
+      "display": "a blast of air",
+      "article": "a",
+      "meaning": "一陣氣流／氣爆。",
+      "creature_idea": "氣流感染精靈：風錐身＋口罩披",
+      "catch_rate": 0.125,
+      "accept": [
+        "a blast of air"
+      ]
+    },
+    {
+      "id": 516,
+      "stage": 5,
+      "term": "sneeze",
+      "display": "sneeze",
+      "article": "",
+      "meaning": "打噴嚏。",
+      "creature_idea": "診所噴嚏精靈：紙巾山＋氣爆",
+      "catch_rate": 0.125,
+      "accept": [
+        "sneeze"
+      ]
+    },
+    {
+      "id": 517,
+      "stage": 5,
+      "term": "annoying",
+      "display": "annoying",
+      "article": "",
+      "meaning": "令人煩厭的。",
+      "creature_idea": "煩躁蜂鳴器：警報身＋皺眉臉",
+      "catch_rate": 0.125,
+      "accept": [
+        "annoying"
+      ]
+    },
+    {
+      "id": 518,
+      "stage": 5,
+      "term": "throat",
+      "display": "throat",
+      "article": "",
+      "meaning": "喉嚨。",
+      "creature_idea": "喉嚨精靈：管道身＋聲帶弦",
+      "catch_rate": 0.125,
+      "accept": [
+        "throat"
+      ]
+    },
+    {
+      "id": 519,
+      "stage": 5,
+      "term": "lungs",
+      "display": "lungs",
+      "article": "",
+      "meaning": "肺（複數）。",
+      "creature_idea": "雙肺精靈：左右氣囊＋呼吸節奏",
+      "catch_rate": 0.125,
+      "accept": [
+        "lungs"
+      ]
+    },
+    {
+      "id": 520,
+      "stage": 5,
+      "term": "healthy and happy",
+      "display": "healthy and happy",
+      "article": "",
+      "meaning": "健康又快樂。",
+      "creature_idea": "健康笑臉精靈：蘋果心＋笑臉十字",
+      "catch_rate": 0.125,
+      "accept": [
+        "healthy and happy"
+      ]
+    },
+    {
+      "id": 521,
+      "stage": 5,
+      "term": "get lots of exercise",
+      "display": "get lots of exercise",
+      "article": "",
+      "meaning": "做大量運動。",
+      "creature_idea": "復康運動精靈：啞鈴腳＋跑步帶尾",
+      "catch_rate": 0.125,
+      "accept": [
+        "get lots of exercise"
+      ]
+    }
+  ]
+}

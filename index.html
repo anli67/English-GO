@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>英文默書GO · Invention Critter Go</title>
+  <link rel="stylesheet" href="style.css?v=ecgo53" />
+</head>
+<body>
+  <div id="app" class="boot-mode">
+    <!-- Boot -->
+    <section id="screen-boot" class="screen active boot-scroll">
+      <div class="boot-card">
+        <h1>英文默書 GO</h1>
+        <p class="boot-sub">Invention Critter Go · Brilliant inventions</p>
+        <p class="boot-ver">?v=ecgo53 · soft tip · S3／S6 唔讀生字；S1／2／4／5／7＋encounter 照舊 EN TTS；背景／音效 tip bust · 底 soft ecgo52 · 唔 promote</p>
+        <p id="boot-record" class="boot-record" aria-live="polite">讀取紀錄中…</p>
+        <div class="boot-stage-row" role="group" aria-label="關卡">
+          <button type="button" id="btn-stage1" class="btn primary big" disabled>第一關</button>
+          <button type="button" id="btn-stage2" class="btn primary big" disabled>第二關</button>
+          <button type="button" id="btn-stage3" class="btn primary big">第三關 · 成段填空</button>
+          <button type="button" id="btn-stage4" class="btn primary big" disabled>第四關 · 人體內部</button>
+          <button type="button" id="btn-stage5" class="btn primary big" disabled>第五關 · 醫院</button>
+          <button type="button" id="btn-stage6" class="btn primary big">第六關 · 成段填空</button>
+          <button type="button" id="btn-stage7" class="btn primary big">第七關 · 不規則動詞</button>
+        </div>
+        <button type="button" id="btn-play" class="btn primary big" hidden disabled aria-hidden="true">Play</button>
+        <button type="button" id="btn-dex" class="btn secondary big">圖鑑</button>
+        <div class="boot-orb" aria-hidden="true"></div>
+        <div class="boot-chrome-row">
+          <button type="button" id="btn-reset" class="btn ghost chrome-reset" aria-label="清除紀錄">清除紀錄</button>
+          <button type="button" id="btn-mute" class="btn ghost" aria-pressed="false">🔊 音效 ON</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map — scrollable lab world -->
+    <section id="screen-map" class="screen">
+      <header class="hud">
+        <button type="button" id="btn-map-back" class="btn tiny">←</button>
+        <span id="hud-owned">圖鑑 0/10</span>
+        <button type="button" id="btn-map-mute" class="btn tiny">🔊</button>
+        <button type="button" id="btn-map-reset" class="btn tiny chrome-reset" aria-label="清除紀錄">清</button>
+        <button type="button" id="btn-map-dex" class="btn tiny">圖鑑</button>
+      </header>
+      <div id="map-wrap">
+        <canvas id="map-canvas" width="720" height="960"></canvas>
+        <div id="joy-hint">拖動／搖桿行近 · 或點一下精靈</div>
+        <div id="dbg-hud" aria-hidden="true">ecgo18 dbg…</div>
+        <div id="player-avatar" class="player-avatar" aria-hidden="true"></div>
+      </div>
+      <div id="dpad" aria-label="movement">
+        <button type="button" data-dir="up" class="pad">▲</button>
+        <div class="pad-mid">
+          <button type="button" data-dir="left" class="pad">◀</button>
+          <button type="button" data-dir="right" class="pad">▶</button>
+        </div>
+        <button type="button" data-dir="down" class="pad">▼</button>
+      </div>
+    </section>
+
+    <!-- Encounter — fullscreen static critter -->
+    <section id="screen-encounter" class="screen">
+      <button type="button" id="btn-enc-leave" class="btn tiny enc-leave chrome-leave" aria-label="離開 返地圖">離開</button>
+      <div class="enc-fullscreen">
+        <img id="enc-art" alt="critter" />
+        <span id="enc-evo-badge" class="enc-evo-badge hidden" aria-hidden="true"></span>
+        <!-- Yeung throw sideback — wired ecgo18 from evo_throw_dodge_samples_v0 -->
+        <img id="enc-yeung-throw" class="enc-yeung-throw hidden" alt="" />
+      </div>
+      <div id="type-timer" class="type-timer hidden" aria-live="polite">15s</div>
+      <button type="button" id="btn-enc-tts" class="btn-enc-tts" aria-label="Hear English word" title="Hear English">🔊</button>
+      <div id="enc-hint" class="enc-hint">打出英文詞！</div>
+      <div id="balls-hud" class="balls-hud hidden" aria-live="polite">
+        <div class="balls-top">
+          <span class="balls-label">Invent-Orb</span>
+          <span id="balls-count" class="balls-count">100%</span>
+        </div>
+        <div class="balls-bar" aria-hidden="true"><i id="balls-bar-fill"></i></div>
+        <span id="balls-dots" class="balls-dots">●●●</span>
+      </div>
+      <div class="enc-panel">
+        <label class="sr-only" for="enc-input">英文詞</label>
+        <input id="enc-input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+               placeholder="type English word…" enterkeyhint="done" />
+        <div class="enc-actions">
+          <button type="button" id="btn-submit" class="btn primary">Submit</button>
+          <button type="button" id="btn-skip" class="btn ghost">Skip</button>
+          <button type="button" id="btn-enc-leave-panel" class="btn ghost chrome-leave" aria-label="離開 返地圖">離開</button>
+        </div>
+        <!-- Flick throw zone (PoGO-like) · F UX EN/粵, no Japanese -->
+        <div class="enc-actions catch-actions hidden" id="catch-actions">
+          <div id="spin-meter-wrap" class="spin-meter-wrap">
+            <div id="spin-meter" class="spin-meter"></div>
+            <span id="spin-label" class="spin-label">Spin 0%</span>
+          </div>
+          <p class="flick-hint">拖住 Invent-Orb 向上 flick 掟出 · 可先 Hold Spin</p>
+          <div id="flick-zone" class="flick-zone" aria-label="flick throw">
+            <div id="flick-orb" class="flick-orb"></div>
+            <span class="flick-guide">↑ FLICK TO THROW</span>
+          </div>
+          <button type="button" id="btn-spin" class="btn secondary">Hold to Spin</button>
+        </div>
+        <p id="enc-feedback" class="enc-feedback" aria-live="polite"></p>
+      </div>
+      <div id="catch-overlay" class="catch-overlay hidden" aria-hidden="true">
+        <div id="invent-orb" class="invent-orb"><span class="orb-spin-fx" aria-hidden="true"></span></div>
+        <div id="dodge-fx" class="dodge-fx hidden"><img id="dodge-fx-img" alt="" /><span id="dodge-fx-label">DODGE!</span></div>
+        <p id="catch-msg"></p>
+      </div>
+    </section>
+
+
+    <!-- Stage3 — passage fill blanks → spawn sprites -->
+    <section id="screen-s3" class="screen">
+      <header class="hud">
+        <button type="button" id="btn-s3-back" class="btn tiny">←</button>
+        <span>第三關 · Passage fill</span>
+        <span id="s3-progress">0/31</span>
+      </header>
+      <div id="s3-sprite-layer" class="s3-sprite-layer" aria-hidden="true"></div>
+      <div id="s3-body" class="s3-body">
+        <p class="s3-lede">默書 Part B · 填 verb／preposition／標點 → 每啱一空多一隻精靈</p>
+        <div id="s3-passage" class="s3-passage"></div>
+      </div>
+      <div id="s3-dock" class="s3-dock">
+        <div id="s3-active-meta" class="s3-active-meta">揀／打空位</div>
+        <div id="s3-choices" class="s3-choices" hidden></div>
+        <div class="s3-type-row">
+          <input id="s3-input" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                 placeholder="type answer…" enterkeyhint="done" />
+          <button type="button" id="btn-s3-submit" class="btn primary">OK</button>
+        </div>
+        <p id="s3-feedback" class="s3-feedback" aria-live="polite"></p>
+      </div>
+      <div id="s3-win" class="s3-win hidden" aria-hidden="true">
+        <div class="s3-win-card">
+          <h2>CLEAR!</h2>
+          <p>31 空齊 · 精靈齊晒</p>
+          <button type="button" id="btn-s3-win-boot" class="btn primary">返主畫面</button>
+          <button type="button" id="btn-s3-win-again" class="btn secondary">再玩一次</button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Stage7 — irregular verb table → fish 三態 (ecgo53 soft tip · S3/S6 no blank TTS · page10 · Wave A/B) -->
+    <section id="screen-s7" class="screen">
+      <header class="hud">
+        <button type="button" id="btn-s7-back" class="btn tiny">←</button>
+        <span>第七關 · 不規則動詞</span>
+        <span id="s7-progress">0/39</span>
+      </header>
+      <div id="s7-sprite-layer" class="s7-sprite-layer" aria-hidden="true"></div>
+      <div id="s7-body" class="s7-body">
+        <p class="s7-lede">不規則動詞表 · 填原形／過去式／過去分詞 → 齊三格開魚角式（Present／Past／PP）</p>
+        <div id="s7-table-wrap" class="s7-table-wrap">
+          <table id="s7-table" class="s7-table" aria-label="不規則動詞表">
+            <thead>
+              <tr>
+                <th scope="col">中文</th>
+                <th scope="col">原形</th>
+                <th scope="col">過去式</th>
+                <th scope="col">過去分詞</th>
+                <th scope="col">魚</th>
+              </tr>
+            </thead>
+            <tbody id="s7-tbody"></tbody>
+          </table>
+        </div>
+        <div id="s7-fish-panel" class="s7-fish-panel hidden" aria-live="polite">
+          <div class="s7-fish-head">
+            <span id="s7-fish-title" class="s7-fish-title">魚角式</span>
+            <div id="s7-tense-tabs" class="s7-tense-tabs" role="tablist" aria-label="時態">
+              <button type="button" class="s7-tense-tab active" data-tense="present" role="tab" aria-selected="true">Present</button>
+              <button type="button" class="s7-tense-tab" data-tense="past" role="tab" aria-selected="false">Past</button>
+              <button type="button" class="s7-tense-tab" data-tense="pp" role="tab" aria-selected="false">PP</button>
+            </div>
+          </div>
+          <img id="s7-fish-art" class="s7-fish-art" alt="fish cutout" />
+          <p id="s7-fish-story" class="s7-fish-story"></p>
+        </div>
+      </div>
+      <div id="s7-dock" class="s7-dock">
+        <div class="s7-pager" role="navigation" aria-label="動詞分頁">
+          <button type="button" id="btn-s7-prev" class="btn tiny s7-pager-btn">上一頁</button>
+          <span id="s7-pager-label" class="s7-pager-label">1–10／39</span>
+          <button type="button" id="btn-s7-next" class="btn tiny s7-pager-btn">下一頁</button>
+        </div>
+        <div class="s7-dock-actions">
+          <button type="button" id="btn-s7-answer" class="btn tiny s7-answer-btn" aria-pressed="false">ANSWER</button>
+          <button type="button" id="btn-s7-retry-page" class="btn tiny s7-retry-btn">再練一次</button>
+        </div>
+        <div id="s7-active-meta" class="s7-active-meta">撳格／打字 · 齊三格開魚 · 每頁 10 字</div>
+        <p id="s7-feedback" class="s7-feedback" aria-live="polite"></p>
+      </div>
+      <div id="s7-win" class="s7-win hidden" aria-hidden="true">
+        <div class="s7-win-card">
+          <h2>CLEAR!</h2>
+          <p id="s7-win-copy">不規則動詞齊 · 魚角式齊晒</p>
+          <button type="button" id="btn-s7-win-boot" class="btn primary">返主畫面</button>
+          <button type="button" id="btn-s7-win-again" class="btn secondary">再玩一次</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dex / Gallery -->
+    <section id="screen-dex" class="screen">
+      <header class="hud">
+        <button type="button" id="btn-dex-back" class="btn tiny">←</button>
+        <span>圖鑑</span>
+        <button type="button" id="btn-dex-answer" class="btn tiny answer-btn" aria-pressed="false">ANSWER</button>
+        <span id="dex-count">0/10</span>
+      </header>
+      <div id="dex-grid" class="dex-grid"></div>
+      <div id="dex-detail" class="dex-detail hidden" aria-hidden="true">
+        <button type="button" id="btn-dex-detail-close" class="btn tiny">← 返圖鑑</button>
+        <div class="dex-detail-head">
+          <div id="dex-detail-name" class="name"></div>
+          <div id="dex-detail-meta" class="meta"></div>
+        </div>
+        <div id="dex-detail-levels" class="dex-level-strip" role="list" aria-label="進化 LEVEL"></div>
+        <p class="dex-detail-hint">已達 SHOW · 未達剪影 · 遇敵仍當前 Lv</p>
+      </div>
+    </section>
+  </div>
+  <script src="game.js?v=ecgo53"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+{
+  "version": "english_catch_stage4_body_vocab_v0",
+  "date": "2026-11-01",
+  "status": "DRAFT — Owner ALL APPROVE scope；等 Co／Owner PASS LOCK；唔 wire／唔 bump keep",
+  "stage": 4,
+  "map": "人體內部 human body interior",
+  "theme": "Dictation (2) Part A body vocabulary — 原創身體主題精靈；無官方商標",
+  "source": "School 2026-2027 GENERAL ENGLISH DICTATION REVISION (2) Part A Vocabulary",
+  "count": 10,
+  "catch_rate": 0.125,
+  "stage1_3_keep": "DO NOT MODIFY english_catch_vocab_v0.json / stage2_beach / stage3_passage_blank；live keep ecgo35",
+  "gameplay": {
+    "name": "Body Critter Go（creature-catch style 玩法感覺；原創精靈）",
+    "like": "Stage 1 vocab catch",
+    "loop": [
+      "主角喺人體內部地圖行來行去",
+      "附近出現身體主題精靈（對應 Part A 生字）",
+      "走近 → 遇敵畫面",
+      "keyboard 打正確英文詞（接受 a/an＋詞 或 净詞，大小寫寬鬆）",
+      "打啱 → 掟球捕捉（機率失敗可再遇）",
+      "打錯 → 彈走／重試"
+    ],
+    "catch": {
+      "ball": "精靈球（原創設計）",
+      "success_not_guaranteed": true,
+      "base_rate": 0.125
+    },
+    "evolution": "LEVEL 1–3 per species family（見 KNIFE／evo_lines）；程式用現有 evo UI；美術 NEED_ART L1–3 cutouts"
+  },
+  "evo_lines": [
+    {
+      "family": "brain",
+      "L1": "Brainblob — 粉圓神經網絡幼體",
+      "L2": "Synaptoid — 雙葉大腦＋電火花翅",
+      "L3": "Cerebrux — 發光腦冠＋資料流披風"
+    },
+    {
+      "family": "heart",
+      "L1": "Heartbeat — 細紅心跳",
+      "L2": "Pulsewing — 心電圖翼＋動脈環",
+      "L3": "Cardioryx — 鎧心守護＋泵血光環"
+    },
+    {
+      "family": "bones",
+      "L1": "Bonekit — 小骨架",
+      "L2": "Marrowox — 強化關節＋軟骨盾",
+      "L3": "Osteonex — 完整骨架戰士＋脊椎劍"
+    },
+    {
+      "family": "muscles",
+      "L1": "Flexling — 繃帶肌肉幼體",
+      "L2": "Tendron — 肌腱鎧甲",
+      "L3": "Myoforce — 爆發肌纖維鎧"
+    },
+    {
+      "family": "stomach",
+      "L1": "Tumtum — 圓胃袋",
+      "L2": "Digestox — 酶泡盔",
+      "L3": "Gastromax — 消化熔爐巨體"
+    },
+    {
+      "family": "chest",
+      "L1": "Ribcage — 肋骨門幼體",
+      "L2": "Thoraxon — 護心胸甲",
+      "L3": "Sternaguard — 胸骨堡壘"
+    },
+    {
+      "family": "cough",
+      "L1": "Coughpuff — 煙雲幼體",
+      "L2": "Hackmist — 紙巾披風雲",
+      "L3": "Bronchiblast — 氣管風暴"
+    },
+    {
+      "family": "yawn",
+      "L1": "Yawnlet — 大嘴睡臉",
+      "L2": "Drowseal — 睡帽＋呵欠波",
+      "L3": "Somnolord — 夢境呵欠巨像"
+    },
+    {
+      "family": "sweat",
+      "L1": "Sweatdroplet — 汗珠",
+      "L2": "Perspirun — 跑步水珠裝甲",
+      "L3": "Hydropulse — 運動水合王"
+    },
+    {
+      "family": "sneeze",
+      "L1": "Sneezling — 紅鼻幼體",
+      "L2": "Achoomist — 氣爆雲盔",
+      "L3": "Blastorrhea — 噴嚏颶風（原創名；非商標）"
+    }
+  ],
+  "words": [
+    {
+      "id": 401,
+      "stage": 4,
+      "term": "a brain",
+      "display": "brain",
+      "article": "a",
+      "meaning": "腦",
+      "creature_idea": "腦細胞精靈 Brainblob：粉圓身＋神經網絡角",
+      "catch_rate": 0.125,
+      "accept": [
+        "brain",
+        "a brain"
+      ],
+      "evo_family": "brain"
+    },
+    {
+      "id": 402,
+      "stage": 4,
+      "term": "a heart",
+      "display": "heart",
+      "article": "a",
+      "meaning": "心臟",
+      "creature_idea": "心跳精靈 Heartbeat：紅心身＋心電圖翅",
+      "catch_rate": 0.125,
+      "accept": [
+        "heart",
+        "a heart"
+      ],
+      "evo_family": "heart"
+    },
+    {
+      "id": 403,
+      "stage": 4,
+      "term": "bones",
+      "display": "bones",
+      "article": "",
+      "meaning": "骨頭（複數）",
+      "creature_idea": "骨架精靈 Bonekit：小骨盔＋關節鏈尾",
+      "catch_rate": 0.125,
+      "accept": [
+        "bones"
+      ],
+      "evo_family": "bones"
+    },
+    {
+      "id": 404,
+      "stage": 4,
+      "term": "muscles",
+      "display": "muscles",
+      "article": "",
+      "meaning": "肌肉（複數）",
+      "creature_idea": "肌肉精靈 Flexling：繃緊手臂身＋彈力帶耳",
+      "catch_rate": 0.125,
+      "accept": [
+        "muscles"
+      ],
+      "evo_family": "muscles"
+    },
+    {
+      "id": 405,
+      "stage": 4,
+      "term": "a stomach",
+      "display": "stomach",
+      "article": "a",
+      "meaning": "胃",
+      "creature_idea": "胃袋精靈 Tumtum：圓袋身＋消化泡泡",
+      "catch_rate": 0.125,
+      "accept": [
+        "stomach",
+        "a stomach"
+      ],
+      "evo_family": "stomach"
+    },
+    {
+      "id": 406,
+      "stage": 4,
+      "term": "a chest",
+      "display": "chest",
+      "article": "a",
+      "meaning": "胸口／胸腔",
+      "creature_idea": "胸腔精靈 Ribcage：肋骨門＋鎖骨肩",
+      "catch_rate": 0.125,
+      "accept": [
+        "chest",
+        "a chest"
+      ],
+      "evo_family": "chest"
+    },
+    {
+      "id": 407,
+      "stage": 4,
+      "term": "a cough",
+      "display": "cough",
+      "article": "a",
+      "meaning": "咳嗽",
+      "creature_idea": "咳嗽雲精 Coughpuff：煙雲身＋紙巾帽",
+      "catch_rate": 0.125,
+      "accept": [
+        "cough",
+        "a cough"
+      ],
+      "evo_family": "cough"
+    },
+    {
+      "id": 408,
+      "stage": 4,
+      "term": "a yawn",
+      "display": "yawn",
+      "article": "a",
+      "meaning": "打呵欠",
+      "creature_idea": "呵欠精靈 Yawnlet：大嘴圓臉＋睡眼",
+      "catch_rate": 0.125,
+      "accept": [
+        "yawn",
+        "a yawn"
+      ],
+      "evo_family": "yawn"
+    },
+    {
+      "id": 409,
+      "stage": 4,
+      "term": "sweat",
+      "display": "sweat",
+      "article": "",
+      "meaning": "汗",
+      "creature_idea": "汗滴精靈 Sweatdroplet：水珠身＋跑步鞋腳",
+      "catch_rate": 0.125,
+      "accept": [
+        "sweat"
+      ],
+      "evo_family": "sweat"
+    },
+    {
+      "id": 410,
+      "stage": 4,
+      "term": "a sneeze",
+      "display": "sneeze",
+      "article": "a",
+      "meaning": "打噴嚏",
+      "creature_idea": "噴嚏精靈 Sneezling：鼻紅身＋氣爆雲尾",
+      "catch_rate": 0.125,
+      "accept": [
+        "sneeze",
+        "a sneeze"
+      ],
+      "evo_family": "sneeze"
+    }
+  ]
+}
